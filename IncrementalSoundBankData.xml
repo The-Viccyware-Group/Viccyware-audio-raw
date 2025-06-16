@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{E6A471B4-D077-4D95-9056-C3516E834342}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Cozmo_singing" Hash="1767358247" Timestamp="1750040338"/>
+				<File Name="Init" Hash="4254437841" Timestamp="1750040338"/>
+				<File Name="Missing_sfx" Hash="288765253" Timestamp="1750037774"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1819131436" Timestamp="1750040338"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{40B98E14-4922-4F33-962A-C45C114873D5}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Cozmo_singing" Hash="1767358247" Timestamp="1750040338"/>
+				<File Name="Init" Hash="970045888" Timestamp="1747963855"/>
+				<File Name="Missing_sfx" Hash="288765253" Timestamp="1750037776"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3219423197" Timestamp="1750040338"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

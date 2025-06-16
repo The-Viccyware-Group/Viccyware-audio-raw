@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Cozmo_80bpm" ID="{34620CD9-90F5-4335-8A12-FD09C83EC54C}">
+					<ChildrenList>
+						<Action Name="" ID="{22EB7B5E-1EE3-43CB-8F5C-FB04E5B7452C}" ShortID="250001044">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-80" ID="{8EFB8DA5-CCFF-4CA6-AF8D-B03608966E56}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cozmo_100bpm" ID="{5BF7521C-1853-424C-93E2-6A855710BD23}">
+					<ChildrenList>
+						<Action Name="" ID="{09AF04A8-4148-4679-9D9A-F63EF149E077}" ShortID="712664674">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-100" ID="{6B179874-1E07-41DC-BB49-F462906A2FF3}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cozmo_120bpm" ID="{23282CC9-B4E3-4743-9A4B-65829E8BB432}">
+					<ChildrenList>
+						<Action Name="" ID="{0C1BA353-50B1-4C66-AFAE-63FF43DD3673}" ShortID="933834577">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-120" ID="{4606F4D0-4478-4E38-840D-FDC8297636C2}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Low_Light_Charging_End" ID="{E6D3C1A6-9837-4B9C-9B94-EEF2C8C4EC79}">
+					<ChildrenList>
+						<Action Name="" ID="{086575C8-A3C0-413E-90AA-5DB08FEE33BE}" ShortID="809760830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{4BCEB61B-98DA-42B5-806E-5F17F921DEB2}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Low_Light_Charging_Start" ID="{580F5EBE-A125-41FA-B164-BDCC0E1CEFBB}">
+					<ChildrenList>
+						<Action Name="" ID="{AE71E099-4D63-471F-9264-9F0F1A5FA28D}" ShortID="76007562">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_SFX__Explorer_Night_Vision_On" ID="{ED65233F-12A2-4A7A-88D7-26295AACD270}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Camera_Focus_1" ID="{166DF8EC-024D-4ED7-88AC-8BA070375760}">
+					<ChildrenList>
+						<Action Name="" ID="{38C1557A-38B5-41B3-A51E-2E2A4D0ED2EE}" ShortID="747876010">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{09AC8D7F-5C4E-4A57-A1C5-463248407AE2}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Camera_Focus_2" ID="{8A7E8E88-00B2-45F0-B2C9-EB755DF0EF31}">
+					<ChildrenList>
+						<Action Name="" ID="{E137D397-DFE9-4730-80EA-2BE497114755}" ShortID="691620751">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_01" ID="{B76A8FA6-9D75-41B9-BE6C-7C5AA1BD5B46}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Camera_Focus_3" ID="{30A932BC-EF28-4A61-A850-621A494ECB8D}">
+					<ChildrenList>
+						<Action Name="" ID="{C37770AB-9E3F-46E4-9EBF-794FC1EB4288}" ShortID="940215903">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Camera_Focus" ID="{5AE15C12-8EE6-4FC5-8885-7A2B5A7C518E}">
+					<ChildrenList>
+						<Action Name="" ID="{AD0F0106-EEE5-4228-833D-3CDC11BA4135}" ShortID="388493742">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{09AC8D7F-5C4E-4A57-A1C5-463248407AE2}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Power_Off" ID="{39CCF6FF-B259-4064-875F-CE752BFC1278}">
+					<ChildrenList>
+						<Action Name="" ID="{75EE7AD3-A087-44F1-A951-8B0D5D5EAF08}" ShortID="818583053">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Power_Off_WM" ID="{EC15857F-4BB5-4F92-A7E1-7E291A1BB2E8}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Power_Off_End" ID="{9FF7A2C2-1573-4524-897B-79216AD42601}">
+					<ChildrenList>
+						<Action Name="" ID="{5CA53148-DAA9-4178-AA0A-0BABC837E0D7}" ShortID="978928211">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{4015200C-48D1-4902-BAD6-11A8916B9805}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Power_On" ID="{CBF6FCC7-7C79-4AFD-B67A-12FBDA72844A}">
+					<ChildrenList>
+						<Action Name="" ID="{F856329C-5C3E-48E3-9941-A8C28545B887}" ShortID="63338310">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Power_On_WM" ID="{1FF3380E-5951-4703-B091-9195F5011CEE}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Power_On_Crooked" ID="{53D66B82-4103-4EAC-9B39-C3B38A7232FA}">
+					<ChildrenList>
+						<Action Name="" ID="{19625F6B-3F1D-4B9E-BF99-02EB978A2277}" ShortID="348207053">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{56C728BC-1849-4687-A626-5D20E8BF60F4}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Power_On_Mismatched_Eyes" ID="{F710B13C-C7B3-4CF0-A6BE-FBD51778E029}">
+					<ChildrenList>
+						<Action Name="" ID="{1A76530F-2E8F-4856-A4A7-A6907AC7F9B5}" ShortID="392173027">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{3C86E926-CEF4-41C6-8E18-E1D25A185C1D}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Power_On_Short" ID="{70F711D1-1182-4393-BB5F-A2550822C8EE}">
+					<ChildrenList>
+						<Action Name="" ID="{0A9D5862-B102-422D-BA49-C1DF011D3FD7}" ShortID="99787851">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{074E9A8B-41CE-4A9E-96C2-7EB162C43D8F}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop" ID="{2089942D-9EA8-4F0E-9454-63F7B25D9A32}">
+					<ChildrenList>
+						<Action Name="" ID="{16651099-DDE6-4135-B431-DDC9E0499B1F}" ShortID="333471471">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{6FF94B1A-E6B8-4548-9398-5A95749FA431}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix" ID="{D6B3ED5D-F79B-4A97-A393-1465B20C3FB1}">
+					<ChildrenList>
+						<Action Name="" ID="{AD2CEAF1-9339-4562-A2F4-30A85689CBDD}" ShortID="1053329939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{4D8C9B07-311D-449E-8F48-91296BC0AFF6}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
