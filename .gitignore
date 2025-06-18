@@ -34,8 +34,8 @@ ViccywareAudio/*.prof
 ViccywareAudio/.cache/
 ViccywareAudio/GeneratedSoundBanks/
 ViccywareAudio/.backup
-ViccywareAudio/VictorAudio.wproj_migration.log
-ViccywareAudio/VictorAudio.*.validationcache
-ViccywareAudio/VictorAudio.*.wsettings
+ViccywareAudio/Cozmo-singing.wproj_migration.log
+ViccywareAudio/Cozmo-singing.*.validationcache
+ViccywareAudio/Cozmo-singing.*.wsettings
 *.akd
 *.wem
