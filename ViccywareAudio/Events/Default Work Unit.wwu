@@ -241,6 +241,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Camera_Charge__Play" ID="{805EC3E6-0610-4BB1-831C-0EECEACE23D7}">
+					<ChildrenList>
+						<Action Name="" ID="{68949F1E-FB51-47BA-8D2F-D3595766426B}" ShortID="501929027">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{C5828A9B-D04C-4D85-81A4-83F133E3E1A7}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vic_Sfx__Camera_Fire" ID="{07B5C6B0-1258-4F4E-937B-BDE0EAA26947}">
+					<ChildrenList>
+						<Action Name="" ID="{3809E676-F1B6-48F2-B992-5B1A3FA08577}" ShortID="786060760">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{AE3BFC6D-E91E-40C5-A8F6-034FCFA4A4BA}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

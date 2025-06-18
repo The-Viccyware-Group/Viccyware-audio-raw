@@ -39,6 +39,7 @@
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On" ID="{CBF6FCC7-7C79-4AFD-B67A-12FBDA72844A}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Low_Light_Charging_End" ID="{E6D3C1A6-9837-4B9C-9B94-EEF2C8C4EC79}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Charge__Play" ID="{805EC3E6-0610-4BB1-831C-0EECEACE23D7}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Mismatched_Eyes" ID="{F710B13C-C7B3-4CF0-A6BE-FBD51778E029}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{949250DF-6C5F-4D12-B032-E8C04E198EFB}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{074FA75C-F7A3-4D39-A672-1400001B2023}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}" Filter="7" Origin="Manual"/>
@@ -46,6 +47,7 @@
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Crooked" ID="{53D66B82-4103-4EAC-9B39-C3B38A7232FA}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Focus_1" ID="{166DF8EC-024D-4ED7-88AC-8BA070375760}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop" ID="{2089942D-9EA8-4F0E-9454-63F7B25D9A32}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Fire" ID="{07B5C6B0-1258-4F4E-937B-BDE0EAA26947}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_Off_WM" ID="{EC15857F-4BB5-4F92-A7E1-7E291A1BB2E8}" WorkUnitID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Focus" ID="{5AE15C12-8EE6-4FC5-8885-7A2B5A7C518E}" WorkUnitID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
