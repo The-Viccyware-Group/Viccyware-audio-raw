@@ -143,7 +143,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play__Robot_Vic_Sfx__Power_Off_End" ID="{9FF7A2C2-1573-4524-897B-79216AD42601}">
+				<Event Name="Play__Robot_Vic_Sfx__Touch_React" ID="{9FF7A2C2-1573-4524-897B-79216AD42601}">
 					<ChildrenList>
 						<Action Name="" ID="{5CA53148-DAA9-4178-AA0A-0BABC837E0D7}" ShortID="978928211">
 							<PropertyList>
@@ -241,7 +241,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play__Robot_Vic_Sfx__Camera_Charge__Play" ID="{805EC3E6-0610-4BB1-831C-0EECEACE23D7}">
+				<Event Name="Play__Robot_Vic_Sfx__Camera_Charge_Play" ID="{805EC3E6-0610-4BB1-831C-0EECEACE23D7}">
 					<ChildrenList>
 						<Action Name="" ID="{68949F1E-FB51-47BA-8D2F-D3595766426B}" ShortID="501929027">
 							<PropertyList>

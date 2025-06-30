@@ -3,14 +3,14 @@
 	<Platform GUID="{E6A471B4-D077-4D95-9056-C3516E834342}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cozmo_singing" Hash="1804057260" Timestamp="1750281428"/>
+				<File Name="Cozmo_singing" Hash="1804057260" Timestamp="1751320302"/>
 				<File Name="Init" Hash="4254437841" Timestamp="1750281428"/>
-				<File Name="Missing_sfx" Hash="2415291056" Timestamp="1750281724"/>
+				<File Name="Missing_sfx" Hash="1524140223" Timestamp="1751320301"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1054109206" Timestamp="1750281724"/>
+				<File Name="" Hash="1949514553" Timestamp="1751320302"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -19,12 +19,12 @@
 			<Language ID="393239870">
 				<File Name="Cozmo_singing" Hash="1804057260" Timestamp="1750281428"/>
 				<File Name="Init" Hash="970045888" Timestamp="1750281428"/>
-				<File Name="Missing_sfx" Hash="2415291056" Timestamp="1750281725"/>
+				<File Name="Missing_sfx" Hash="1524140223" Timestamp="1751320302"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1699742041" Timestamp="1750281725"/>
+				<File Name="" Hash="673459890" Timestamp="1751320302"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
