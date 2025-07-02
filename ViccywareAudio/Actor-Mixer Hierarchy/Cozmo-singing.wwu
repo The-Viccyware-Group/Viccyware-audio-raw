@@ -882,6 +882,389 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Singing_getin_02_1" ID="{C9E1BE10-F0EA-41BF-B5A4-0DD2C202A19D}" ShortID="652461772">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Robot_VO__Singing_Getin_02_1_03_WM" ID="{54C8D4CB-0DB3-40F5-85C7-6CA11A665BB3}" ShortID="201967749">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_02_1_03_WM" ID="{7C71CE46-CE7A-4C2D-83F0-2C4E401FF31F}" ShortID="166638665">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_02_1_03_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_02_1_03_WM" ID="{7C71CE46-CE7A-4C2D-83F0-2C4E401FF31F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_02_1_04_WM" ID="{EC66C021-2D02-4670-8744-F69BE3AE35BB}" ShortID="444553486">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_02_1_04_WM" ID="{710E1E17-D872-4F63-A67D-97935C01436B}" ShortID="50248035">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_02_1_04_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_02_1_04_WM" ID="{710E1E17-D872-4F63-A67D-97935C01436B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_02_1_02_WM" ID="{168A6129-05B5-4CB3-8061-5145EC0E147B}" ShortID="394943548">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_02_1_02_WM" ID="{4DB09DF8-93B0-4F97-9C66-2D9F5CDEB0B2}" ShortID="728315844">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_02_1_02_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_02_1_02_WM" ID="{4DB09DF8-93B0-4F97-9C66-2D9F5CDEB0B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Singing_getin_02_2" ID="{E7EA2032-F489-4BC5-8292-65A5EC1295DF}" ShortID="1011593646">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Robot_VO__Singing_Getin_02_2_04_WM" ID="{91E15922-0559-43BC-8116-80DED7E817A4}" ShortID="615755818">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_02_2_04_WM" ID="{9D2077E9-D5D2-4C22-A95D-DF644E1C067B}" ShortID="744169758">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_02_2_04_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_02_2_04_WM" ID="{9D2077E9-D5D2-4C22-A95D-DF644E1C067B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_02_2_03_WM" ID="{3FAF0F28-F236-4921-A643-1F5AFDB10F76}" ShortID="409504751">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_02_2_03_WM" ID="{8BCAAA90-C386-49E8-A551-C3EA71F39C4E}" ShortID="30754398">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_02_2_03_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_02_2_03_WM" ID="{8BCAAA90-C386-49E8-A551-C3EA71F39C4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_02_2_02_WM" ID="{675DC2DA-FA06-4D42-8DA6-84A238D139CC}" ShortID="69039542">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_02_2_02_WM" ID="{1121419F-C526-4E5A-80FF-14C6C95A9015}" ShortID="449958395">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_02_2_02_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_02_2_02_WM" ID="{1121419F-C526-4E5A-80FF-14C6C95A9015}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Singing_getin_03_2" ID="{A1FFAC92-02D7-4CDC-996A-0FC6656C5454}" ShortID="28224941">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Robot_VO__Singing_Getin_03_2_05_WM" ID="{43D0402F-8C0E-4A4F-90FB-2ED92EA4AC52}" ShortID="1036759192">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_03_2_05_WM" ID="{ABC56C06-A43C-4204-8032-C35B149E7CA5}" ShortID="1031092497">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_03_2_05_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_03_2_05_WM" ID="{ABC56C06-A43C-4204-8032-C35B149E7CA5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_03_2_02_WM" ID="{1863EA32-A1E4-4929-8BCA-56490EDE2F5D}" ShortID="775329607">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_03_2_02_WM" ID="{793EE6F2-5D44-4860-9614-4954EBA42C0A}" ShortID="47099123">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_03_2_02_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_03_2_02_WM" ID="{793EE6F2-5D44-4860-9614-4954EBA42C0A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_03_2_03_WM" ID="{43FEFAAD-CB24-4E75-B80D-13C8C29BAC8A}" ShortID="390105425">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_03_2_03_WM" ID="{E3847A4E-DC30-44F0-9A73-AE8641D31BD9}" ShortID="473025743">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_03_2_03_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_03_2_03_WM" ID="{E3847A4E-DC30-44F0-9A73-AE8641D31BD9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Singing_getin_03_1" ID="{F23FF498-D680-47DD-BF35-F6638F1E3193}" ShortID="789183429">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Robot_VO__Singing_Getin_03_1_05_WM" ID="{54213CCA-A0A1-47CA-883C-BFB52CBF571B}" ShortID="925697477">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_03_1_05_WM" ID="{F547B29B-653A-4148-9AE6-F2AB94D0E0D1}" ShortID="233628360">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_03_1_05_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_03_1_05_WM" ID="{F547B29B-653A-4148-9AE6-F2AB94D0E0D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_03_1_02_WM" ID="{36482A50-BDE1-416F-82DD-78852866E124}" ShortID="900959554">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_03_1_02_WM" ID="{4C5324D4-FC91-46FC-9560-75B7F72344AE}" ShortID="512181984">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_03_1_02_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_03_1_02_WM" ID="{4C5324D4-FC91-46FC-9560-75B7F72344AE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Singing_Getin_03_1_03_WM" ID="{CFF26F17-D5BC-43EF-8172-96B4BA95C89D}" ShortID="477145462">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Singing_Getin_03_1_03_WM" ID="{9AD0AAED-9B2F-4547-B33D-140C0F62FC47}" ShortID="233166973">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Singing_Getin_03_1_03_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Singing_Getin_03_1_03_WM" ID="{9AD0AAED-9B2F-4547-B33D-140C0F62FC47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Breath_medium_inhale" ID="{0059B9D5-5CE5-4EFB-939E-07D19BF5D1EC}" ShortID="336054478">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{2C0875EF-4950-4B36-8091-AE8632DFF975}" ShortID="483636199">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{36D8B895-4E4D-4F05-BCB9-00B43AD2B9B1}" ShortID="587862066">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{36D8B895-4E4D-4F05-BCB9-00B43AD2B9B1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{356389ED-75C3-4CAC-ADE8-9DBD921487EC}" ShortID="1046257377">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{E3BF4C5D-C4EE-4089-9F0F-2CF73BE67BCD}" ShortID="801968429">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{E3BF4C5D-C4EE-4089-9F0F-2CF73BE67BCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{EE9E08B4-9DE8-44ED-988B-84354F32A2C5}" ShortID="402551249">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{8C3E5AB5-F5E0-4B8F-8A87-A92377A6FF75}" ShortID="670442156">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{8C3E5AB5-F5E0-4B8F-8A87-A92377A6FF75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{3C11AF5B-7E02-413C-855B-42B9B07101AF}" ShortID="8973396">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{027B7DD6-FEAA-4C69-8527-B10688F70F7A}" ShortID="764552563">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{027B7DD6-FEAA-4C69-8527-B10688F70F7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{F50E512C-7BE5-4CE7-86EE-5423DB0A5F7D}" ShortID="676966481">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{9AFBEEB1-7B44-4346-BBD7-4328D1683D44}" ShortID="612354249">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{9AFBEEB1-7B44-4346-BBD7-4328D1683D44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

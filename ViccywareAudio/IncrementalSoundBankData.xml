@@ -3,28 +3,28 @@
 	<Platform GUID="{E6A471B4-D077-4D95-9056-C3516E834342}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cozmo_singing" Hash="1804057260" Timestamp="1751320302"/>
+				<File Name="Cozmo_singing" Hash="1974289527" Timestamp="1751500556"/>
 				<File Name="Init" Hash="4254437841" Timestamp="1750281428"/>
 				<File Name="Missing_sfx" Hash="1524140223" Timestamp="1751320301"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="186913491" Timestamp="1751320477"/>
+				<File Name="" Hash="3633703412" Timestamp="1751500556"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{40B98E14-4922-4F33-962A-C45C114873D5}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cozmo_singing" Hash="1804057260" Timestamp="1750281428"/>
+				<File Name="Cozmo_singing" Hash="1974289527" Timestamp="1751500556"/>
 				<File Name="Init" Hash="970045888" Timestamp="1750281428"/>
 				<File Name="Missing_sfx" Hash="1524140223" Timestamp="1751320302"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2883230732" Timestamp="1751320477"/>
+				<File Name="" Hash="1205427453" Timestamp="1751500556"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
