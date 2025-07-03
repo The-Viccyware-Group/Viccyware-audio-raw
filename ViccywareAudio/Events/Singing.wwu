@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DBA34686-8BCF-4C74-8726-14EC818B27AB}" SchemaVersion="85" RootDocumentID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}">
+	<Events>
+		<WorkUnit Name="Singing" ID="{DBA34686-8BCF-4C74-8726-14EC818B27AB}" OwnerID="{7C5D7BB8-F19A-41DA-8A28-3A28BF2AC8CF}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play__Robot_Vo__Sing_Getin_02_1" ID="{5F3232AC-3D3E-4E77-A3D2-C02BE0375CC0}">
+					<ChildrenList>
+						<Action Name="" ID="{E3029FDC-A878-49E4-8F78-19CA860F7EA8}" ShortID="546935823">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_02_1" ID="{C9E1BE10-F0EA-41BF-B5A4-0DD2C202A19D}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vo__Sing_Getin_03_1" ID="{ED866B06-45B9-4A13-B1C9-73996107628A}">
+					<ChildrenList>
+						<Action Name="" ID="{A0A20D04-F46B-4237-AF5D-4EF528F3C22B}" ShortID="296150307">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_03_1" ID="{F23FF498-D680-47DD-BF35-F6638F1E3193}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vo__Sing_Getin_02_2" ID="{468466A3-C8E7-4FE1-B705-E41C08763CE8}">
+					<ChildrenList>
+						<Action Name="" ID="{F927D752-D1C6-4189-9207-34C575453849}" ShortID="574910564">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_02_2" ID="{E7EA2032-F489-4BC5-8292-65A5EC1295DF}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play__Robot_Vo__Sing_Getin_03_2" ID="{B3034A84-D6C4-49B5-A857-5A4579FDDB3F}">
+					<ChildrenList>
+						<Action Name="" ID="{91FD36E2-92CF-4336-A2FB-FBB0D1B57FBF}" ShortID="976599582">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_03_2" ID="{A1FFAC92-02D7-4CDC-996A-0FC6656C5454}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cozmo_120bpm" ID="{23282CC9-B4E3-4743-9A4B-65829E8BB432}">
+					<ChildrenList>
+						<Action Name="" ID="{0C1BA353-50B1-4C66-AFAE-63FF43DD3673}" ShortID="933834577">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-120" ID="{4606F4D0-4478-4E38-840D-FDC8297636C2}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cozmo_80bpm" ID="{34620CD9-90F5-4335-8A12-FD09C83EC54C}">
+					<ChildrenList>
+						<Action Name="" ID="{22EB7B5E-1EE3-43CB-8F5C-FB04E5B7452C}" ShortID="250001044">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-80" ID="{8EFB8DA5-CCFF-4CA6-AF8D-B03608966E56}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cozmo_100bpm" ID="{5BF7521C-1853-424C-93E2-6A855710BD23}">
+					<ChildrenList>
+						<Action Name="" ID="{09AF04A8-4148-4679-9D9A-F63EF149E077}" ShortID="712664674">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-100" ID="{6B179874-1E07-41DC-BB49-F462906A2FF3}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
