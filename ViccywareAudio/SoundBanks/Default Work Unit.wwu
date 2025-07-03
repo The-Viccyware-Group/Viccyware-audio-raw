@@ -18,7 +18,6 @@
 						<ObjectRef Name="Singing_getin_03_2" ID="{A1FFAC92-02D7-4CDC-996A-0FC6656C5454}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Cozmo-120" ID="{4606F4D0-4478-4E38-840D-FDC8297636C2}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vo__Sing_Getin_02_1" ID="{5F3232AC-3D3E-4E77-A3D2-C02BE0375CC0}" WorkUnitID="{DBA34686-8BCF-4C74-8726-14EC818B27AB}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Breath_medium_inhale" ID="{0059B9D5-5CE5-4EFB-939E-07D19BF5D1EC}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vo__Sing_Getin_02_2" ID="{468466A3-C8E7-4FE1-B705-E41C08763CE8}" WorkUnitID="{DBA34686-8BCF-4C74-8726-14EC818B27AB}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
