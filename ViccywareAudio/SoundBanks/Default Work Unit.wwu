@@ -54,11 +54,13 @@
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Low_Light_Charging_End" ID="{E6D3C1A6-9837-4B9C-9B94-EEF2C8C4EC79}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Charge_Play" ID="{805EC3E6-0610-4BB1-831C-0EECEACE23D7}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Firetruck" ID="{7EAE8023-E19A-4CEC-BD64-2131C4C9D69B}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Mismatched_Eyes" ID="{F710B13C-C7B3-4CF0-A6BE-FBD51778E029}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{949250DF-6C5F-4D12-B032-E8C04E198EFB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{074FA75C-F7A3-4D39-A672-1400001B2023}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{C5828A9B-D04C-4D85-81A4-83F133E3E1A7}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Crooked" ID="{53D66B82-4103-4EAC-9B39-C3B38A7232FA}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play__Robot_Vo__Codelab_Firetruck" ID="{8F36CFA2-AA6D-4EB0-BC37-70426B88132C}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Focus_1" ID="{166DF8EC-024D-4ED7-88AC-8BA070375760}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Breath_medium_inhale" ID="{0059B9D5-5CE5-4EFB-939E-07D19BF5D1EC}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop" ID="{2089942D-9EA8-4F0E-9454-63F7B25D9A32}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>

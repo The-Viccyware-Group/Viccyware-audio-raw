@@ -698,6 +698,75 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Firetruck" ID="{7EAE8023-E19A-4CEC-BD64-2131C4C9D69B}" ShortID="1033883012">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{5D7313BC-198B-4890-9D7D-6AF1D6E74952}" ShortID="100855354">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{0CB3AED5-2273-40C5-9116-13AD11173F75}" ShortID="621609733">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Codelab_Firetruck_01_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{0CB3AED5-2273-40C5-9116-13AD11173F75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{E22F1482-CA36-430D-BE28-BCDC98F59593}" ShortID="549100156">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{DD70EDC8-F28A-489A-B905-9B1085BF2F8B}" ShortID="137932741">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Codelab_Firetruck_02_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{DD70EDC8-F28A-489A-B905-9B1085BF2F8B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{AB9146D0-E331-4200-9E4D-E9DD021E84A1}" ShortID="534750438">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{FF9EFB34-A6DB-49E7-82F6-20D7F05E1475}" ShortID="697066089">
+									<Language>SFX</Language>
+									<AudioFile>Robot_VO__Codelab_Firetruck_03_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{FF9EFB34-A6DB-49E7-82F6-20D7F05E1475}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

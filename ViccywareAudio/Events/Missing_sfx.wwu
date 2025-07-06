@@ -283,6 +283,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play__Robot_Vo__Codelab_Firetruck" ID="{8F36CFA2-AA6D-4EB0-BC37-70426B88132C}">
+					<ChildrenList>
+						<Action Name="" ID="{720BBBA0-A819-4337-94CE-DE9D2FD6EFF1}" ShortID="553617875">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Firetruck" ID="{7EAE8023-E19A-4CEC-BD64-2131C4C9D69B}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
