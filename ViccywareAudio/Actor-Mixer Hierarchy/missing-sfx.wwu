@@ -796,7 +796,6 @@
 										<Value>40</Value>
 									</ValueList>
 								</Property>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
 										<Value>-900</Value>
