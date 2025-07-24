@@ -313,41 +313,80 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play__Robot_Vic_Sfx__Planning_Loop_Play" ID="{32329812-D28B-49D2-9FAC-5633472E0DAF}">
+				<Folder Name="Exploring" ID="{6217E7BD-5FD3-4C61-ACAE-8FF11338AE91}" ShortID="363563046">
 					<ChildrenList>
-						<Action Name="" ID="{7C45334D-4AFF-4A44-95F8-AEB83FDC1F09}" ShortID="568850311">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{DD8593E4-760F-45C0-9CA5-88C8E42D1055}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{2D302075-F7BE-433E-8144-CE4D36693C02}" ShortID="1040961274">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Robot_Vic_Planning" ID="{D8E296E2-5F7C-4856-BA99-9472C8F774F3}" WorkUnitID="{9F58620E-9564-427B-9E2D-B51747E4E744}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{EF3C7132-6230-4783-9BBB-DE6762CBCBB6}" ShortID="162487347">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="Delay" Type="Real64" Value="0.07"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Robot_Vic_Planning" ID="{D8E296E2-5F7C-4856-BA99-9472C8F774F3}" WorkUnitID="{9F58620E-9564-427B-9E2D-B51747E4E744}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play__Robot_Vic_Sfx__Planning_Loop_Play" ID="{32329812-D28B-49D2-9FAC-5633472E0DAF}">
+							<ChildrenList>
+								<Action Name="" ID="{7C45334D-4AFF-4A44-95F8-AEB83FDC1F09}" ShortID="568850311">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{DD8593E4-760F-45C0-9CA5-88C8E42D1055}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2D302075-F7BE-433E-8144-CE4D36693C02}" ShortID="1040961274">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Planning" ID="{D8E296E2-5F7C-4856-BA99-9472C8F774F3}" WorkUnitID="{9F58620E-9564-427B-9E2D-B51747E4E744}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EF3C7132-6230-4783-9BBB-DE6762CBCBB6}" ShortID="162487347">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="Delay" Type="Real64" Value="0.07"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Planning" ID="{D8E296E2-5F7C-4856-BA99-9472C8F774F3}" WorkUnitID="{9F58620E-9564-427B-9E2D-B51747E4E744}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Planning_Loop_Stop" ID="{C84F26D9-8094-4103-9603-A8FF118E7FBA}">
+							<ChildrenList>
+								<Action Name="" ID="{01A81FE3-EFEB-4E18-8D6C-44157C3EFCC2}" ShortID="641171094">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{DD8593E4-760F-45C0-9CA5-88C8E42D1055}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5EE51087-7015-4DFD-A8DF-7312231356B3}" ShortID="976933101">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Planning" ID="{D8E296E2-5F7C-4856-BA99-9472C8F774F3}" WorkUnitID="{9F58620E-9564-427B-9E2D-B51747E4E744}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C43E8FA4-1817-4AE1-8D95-649D5C03F400}" ShortID="638102536">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="38"/>
+										<Property Name="Delay" Type="Real64" Value="0.07"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Planning" ID="{D8E296E2-5F7C-4856-BA99-9472C8F774F3}" WorkUnitID="{9F58620E-9564-427B-9E2D-B51747E4E744}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
