@@ -828,6 +828,197 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Snowglobe" ID="{9F6E5177-6C19-4DC6-A045-D6EB98B32E7E}" ShortID="210538759">
+					<ChildrenList>
+						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{97D74F44-B14E-4167-99D2-542FDC90572A}" ShortID="231704657">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{EC582CD5-3CCD-42C2-87E5-C72A1DAC6E8E}" ShortID="893825475">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{EC582CD5-3CCD-42C2-87E5-C72A1DAC6E8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" ShortID="136507678">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{D0975895-E15D-49C4-BBA1-FCA8A01A154B}" ShortID="1012618777">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{D0975895-E15D-49C4-BBA1-FCA8A01A154B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" ShortID="834632883">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{FBD83915-5165-40E4-AF28-88395E7FFA0B}" ShortID="709071018">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{FBD83915-5165-40E4-AF28-88395E7FFA0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{1BECB359-9173-417E-9ABE-6D5A2064FB24}" ShortID="177563158">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-240</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{B4353D1B-C28A-4922-89AF-2F25CCA38FAB}" ShortID="406187370">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{B4353D1B-C28A-4922-89AF-2F25CCA38FAB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" ShortID="550700813">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{447AAFF8-65EE-4B59-B960-F85855F34E4E}" ShortID="753031588">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{447AAFF8-65EE-4B59-B960-F85855F34E4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" ShortID="991795903">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{55D8EE8C-BD60-46B4-B6A8-12A47F043ACB}" ShortID="581551155">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{55D8EE8C-BD60-46B4-B6A8-12A47F043ACB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" ShortID="289686421">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC4A0C27-1CF8-4143-B073-953359DBF55B}" ShortID="774827322">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC4A0C27-1CF8-4143-B073-953359DBF55B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -387,6 +387,326 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Snowglobe" ID="{27851C8A-1DB6-451A-8C02-DEA693D0BE21}" ShortID="1008126164">
+					<ChildrenList>
+						<Event Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_Play" ID="{081B4394-D5ED-4AF5-89F0-B6188FA1BC70}">
+							<ChildrenList>
+								<Action Name="" ID="{45615E9E-5FC9-4E69-A7EC-E979CF6DB333}" ShortID="21399552">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_Play" ID="{C288D75F-7AA1-487A-AFF2-0254862AAF95}">
+							<ChildrenList>
+								<Action Name="" ID="{7081DFE8-B5E7-44A5-AF16-BA954A0DEEE0}" ShortID="352201204">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_Play" ID="{7F319C7A-1A00-44F2-80BF-5A910A1FE221}">
+							<ChildrenList>
+								<Action Name="" ID="{9EC79E10-EC4E-43FD-A48A-66AC52B45429}" ShortID="875625711">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End" ID="{19D7DC4B-770E-43EE-BBF3-AC4C94CA16F9}">
+							<ChildrenList>
+								<Action Name="" ID="{F9661C32-45CC-49B1-B58C-BBA02201B778}" ShortID="54735065">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{97D74F44-B14E-4167-99D2-542FDC90572A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start" ID="{F97E3AD8-2D83-4B26-94C3-77ED204C0517}">
+							<ChildrenList>
+								<Action Name="" ID="{44B06E54-E57D-486A-82C2-89196F9ABC12}" ShortID="606119507">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{1BECB359-9173-417E-9ABE-6D5A2064FB24}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_Play" ID="{1BF2CBDD-921B-4BAC-A1B0-C09CC0E4396F}">
+							<ChildrenList>
+								<Action Name="" ID="{709ADC65-AEE7-415A-9BB2-9E38EE80A122}" ShortID="80712629">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Play" ID="{AA8A0C71-88EE-4068-905A-4CE8BAD4552E}">
+							<ChildrenList>
+								<Action Name="" ID="{35B27CD9-C3F7-4EB7-9B5C-26425CE7EA11}" ShortID="424839552">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Snowglobe_All_Loop_Stop" ID="{6212A2F1-4C2D-470D-9FB8-3A1653D45260}">
+							<ChildrenList>
+								<Action Name="" ID="{E39CD166-5CB9-426D-AC37-22430BC579C4}" ShortID="303835534">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E6EA747C-6093-4073-90F1-425543209DA4}" ShortID="886401362">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1803BD06-89BA-4D41-9DF3-4AA8BC2BA37B}" ShortID="877120378">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6E90B5AF-2365-4A10-AA2C-7400D8CE1464}" ShortID="31183963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{97D74F44-B14E-4167-99D2-542FDC90572A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5AD5E8B2-877C-4908-B26F-0CDDA498AEA8}" ShortID="282559639">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{1BECB359-9173-417E-9ABE-6D5A2064FB24}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4C7203D6-5A75-4F59-9189-D54C9A531AFE}" ShortID="802979083">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FCABD4E0-988D-42D4-A5AD-EAC8E23D12D9}" ShortID="135910496">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_Stop" ID="{46B418A0-CE68-4D1D-9B12-BB44174DE573}">
+							<ChildrenList>
+								<Action Name="" ID="{EE90A293-D0B9-4505-9741-6359B168163E}" ShortID="436992413">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_Stop" ID="{97AC104C-FF0F-4ECD-9677-30D081F40168}">
+							<ChildrenList>
+								<Action Name="" ID="{3DEFBAC9-7477-414D-AC51-E230E49A8A53}" ShortID="224326722">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_Stop" ID="{143E02E1-B62E-49BA-928E-C378F9BA37B8}">
+							<ChildrenList>
+								<Action Name="" ID="{DF33C094-7493-4D8F-8F49-482A7AC75342}" ShortID="800677161">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Snowglobe_Global_Loop_Stop" ID="{B93A323C-FD06-40D3-A41B-3CB23AA45221}">
+							<ChildrenList>
+								<Action Name="" ID="{D30B2A4A-61BC-45A0-94A0-ACF3E7199880}" ShortID="652836856">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E870C435-B31A-4860-AC2C-234E635165EE}" ShortID="747019396">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F889AFF8-E6D9-4ECD-AA2E-C51189BBB3A6}" ShortID="531721810">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EA050D58-37C5-47C7-889B-A43ED9666A05}" ShortID="811300645">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{97D74F44-B14E-4167-99D2-542FDC90572A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BFC64B7D-6AE9-4E39-BEFA-6142C419A8CF}" ShortID="519757652">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{1BECB359-9173-417E-9ABE-6D5A2064FB24}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F892A8C4-E87F-4A6F-AA45-059B6517E5D0}" ShortID="86374449">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C03F5E2C-3E0E-4C48-A9D9-D9D80F34E63C}" ShortID="39498601">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_Stop" ID="{60D51A01-86DD-4C4D-A0D0-2DE76C16D7A3}">
+							<ChildrenList>
+								<Action Name="" ID="{745CDC97-A7D6-4F88-8CB1-62EA45943310}" ShortID="951874186">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Stop" ID="{A6BAF4ED-0DCE-47E1-ABA5-B2F0A65A8947}">
+							<ChildrenList>
+								<Action Name="" ID="{DB9752FF-B9BD-41CD-AFEC-26496D583720}" ShortID="632317902">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
