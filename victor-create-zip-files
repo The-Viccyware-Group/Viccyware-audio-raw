@@ -1,11 +1,11 @@
 #!/bin/bash  
-_REPO_LOCATION=.
+_REPO_LOCATION=
 _FIX_M4A_TIMESTAMPS_SCRIPT_PATH="$_REPO_LOCATION/build-scripts/fix-m4a-timestamps-in-wwise-file.py"
 _BUNDLE_METADATA_PYTHON_SCRIPT_PATH="$_REPO_LOCATION/build-scripts/bundle-metadata-products.py"
 _BUNDLE_ASSETS_PYTHON_SCRIPT_PATH="$_REPO_LOCATION/build-scripts/bundle-soundbank-products.py"
 _ORGANIZE_ASSETS_PYTHON_SCRIPT_PATH="$_REPO_LOCATION/build-scripts/organize-soundbank-products.py"
 
-_PROJ_DIR="$_REPO_LOCATION/VictorAudio"
+_PROJ_DIR="$_REPO_LOCATION/ViccywareAudio"
 _METADATA_DIR="$_REPO_LOCATION/metadata"
 _GSB_DIR="$_PROJ_DIR/GeneratedSoundBanks"
 

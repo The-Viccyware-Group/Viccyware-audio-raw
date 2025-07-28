@@ -101,6 +101,90 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop__Robot_Singing" ID="{86A71853-EBA0-4D6E-B375-7DA14FF14A72}">
+					<ChildrenList>
+						<Action Name="" ID="{931891EA-8126-4103-A9CA-DE9C8763ABBE}" ShortID="569822156">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breath_medium_inhale" ID="{0059B9D5-5CE5-4EFB-939E-07D19BF5D1EC}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3895E7D6-B935-467C-BE96-0A31F1F8B1C9}" ShortID="1030370703">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_02_1" ID="{C9E1BE10-F0EA-41BF-B5A4-0DD2C202A19D}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{76E20D29-F683-46CE-B538-541B90553FDE}" ShortID="567502554">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_02_2" ID="{E7EA2032-F489-4BC5-8292-65A5EC1295DF}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AC6FBB4D-5696-4AE7-9A25-723D2E743ED0}" ShortID="78631830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_03_1" ID="{F23FF498-D680-47DD-BF35-F6638F1E3193}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7319245E-1720-402A-AE95-BEF1FAE9FC10}" ShortID="683811518">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Singing_getin_03_2" ID="{A1FFAC92-02D7-4CDC-996A-0FC6656C5454}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{00146AC0-0AF6-4EA9-85C7-CA932C98089B}" ShortID="798877413">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-120" ID="{4606F4D0-4478-4E38-840D-FDC8297636C2}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{44AA29AF-D31F-4EB2-93E1-E11629539425}" ShortID="143305936">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-100" ID="{6B179874-1E07-41DC-BB49-F462906A2FF3}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A3557DDD-9D55-49F4-8387-A40DA7030486}" ShortID="709300878">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cozmo-80" ID="{8EFB8DA5-CCFF-4CA6-AF8D-B03608966E56}" WorkUnitID="{9765D42C-9122-4C50-9A9D-875DAAAD59BE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
