@@ -837,6 +837,24 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Snow" ID="{14E5A5B5-376F-4622-BEBA-00490C53EC4D}" ShortID="30577013">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Snow" ID="{5B9DB3B4-177D-4DB6-B36D-070302E10BBC}">
+									<ChildrenList>
+										<Action Name="" ID="{81B78188-DB86-46D5-B333-4D0EFFD8CA11}" ShortID="852591149">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{CFFDF24F-12DD-4577-99CA-64E0E31A1ED8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
