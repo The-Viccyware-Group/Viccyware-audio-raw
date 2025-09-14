@@ -1574,6 +1574,67 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Cloudy" ID="{41E70D60-1A49-453C-A882-A6396D1B2952}" ShortID="604303257">
+							<ChildrenList>
+								<Sound Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{F1D906FB-68DB-45FB-A3EF-D1667D5B1E37}" ShortID="766594164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{AE51387B-FECF-4DB1-9552-C23775FE87E4}" ShortID="352086344">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Cloudy_Loop_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{AE51387B-FECF-4DB1-9552-C23775FE87E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9AD259DC-D7C4-47E8-9458-CA742FB233A4}" ShortID="349016467">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9EBA56C3-63B0-47C7-A8E2-925D2BC46EB3}" ShortID="1037650962">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Cloudy_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9EBA56C3-63B0-47C7-A8E2-925D2BC46EB3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{4C5EFE69-0B2D-4C34-BD29-CBAE64A75FB2}" ShortID="518186746">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{2B721F33-EEDC-4F6D-8479-468C480D57D9}" ShortID="212137642">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Cloudy_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{2B721F33-EEDC-4F6D-8479-468C480D57D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

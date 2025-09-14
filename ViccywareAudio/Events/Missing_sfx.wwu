@@ -905,6 +905,38 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Cloudy" ID="{A5ABFE64-F15C-48D9-9F32-80F266946772}" ShortID="67115317">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Cloudy" ID="{83750460-49A6-49DF-B617-D02E622D91B0}">
+									<ChildrenList>
+										<Action Name="" ID="{5C068E9F-2464-42E1-971B-73DF98440DEE}" ShortID="234497119">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{4C5EFE69-0B2D-4C34-BD29-CBAE64A75FB2}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Emote_Weather_Cloudy" ID="{13153E1B-18A0-4606-9D39-4C6ABC430F51}">
+									<ChildrenList>
+										<Action Name="" ID="{41F2572E-827E-4E13-8782-75E4891CF847}" ShortID="800360913">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9AD259DC-D7C4-47E8-9458-CA742FB233A4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
