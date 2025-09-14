@@ -1302,6 +1302,79 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Sunny" ID="{E6CFDA75-676F-48E4-ABBB-3C61071417FE}" ShortID="579196584">
+							<ChildrenList>
+								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{76D8FA5E-5445-4B41-9436-4BD9231A46FE}" ShortID="763241294">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{723E1D59-1071-4FB0-A0BB-82B43F806C15}" ShortID="940104252">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Sunny_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{723E1D59-1071-4FB0-A0BB-82B43F806C15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Robot_Vic_Sfx__Weather_Sunny" ID="{DBB71461-89E8-47F7-9BD4-D12FC7DC7A7D}" ShortID="818523006">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{1DA7A22A-9F27-490E-8678-E1BF03737C80}" ShortID="656526296">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{D5B863D2-8408-4138-B661-1C072F9BDD8D}" ShortID="747352869">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Sunny_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{D5B863D2-8408-4138-B661-1C072F9BDD8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{AF80082F-1888-4F81-8966-A6A0CD4EA484}" ShortID="501212284">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{FD4F0E1D-510D-4642-9C79-4172655B566C}" ShortID="206049036">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Sunny_02_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{FD4F0E1D-510D-4642-9C79-4172655B566C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

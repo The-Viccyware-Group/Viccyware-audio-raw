@@ -787,6 +787,38 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Sunny" ID="{D545C455-C61E-4FEC-AFF5-BEAEAA0CB8E2}" ShortID="72421186">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Sunny" ID="{4F611ACC-307E-47B6-849E-D919BA89E9E8}">
+									<ChildrenList>
+										<Action Name="" ID="{1E557CBA-4CEF-4E66-9FEF-F80CD1A8C1A0}" ShortID="1297877">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Sunny" ID="{DBB71461-89E8-47F7-9BD4-D12FC7DC7A7D}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Emote_Weather_Sunny" ID="{131A7397-5180-45C9-84CC-E89E66053FDE}">
+									<ChildrenList>
+										<Action Name="" ID="{0B3435B2-A428-4AA9-9464-DB56345562F1}" ShortID="972020223">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{76D8FA5E-5445-4B41-9436-4BD9231A46FE}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
