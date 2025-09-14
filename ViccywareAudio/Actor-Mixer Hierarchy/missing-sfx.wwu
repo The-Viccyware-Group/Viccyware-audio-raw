@@ -1129,6 +1129,179 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Thunderstorm" ID="{01E80769-477C-40B4-9A38-EE6676F7934D}" ShortID="453329532">
+							<ChildrenList>
+								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{9A340357-EB05-4654-B260-21246ED3254D}" ShortID="930331413">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{1E0FD8EC-B743-4186-B191-743C035B9A4D}" ShortID="947948894">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{1E0FD8EC-B743-4186-B191-743C035B9A4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{4D2476B8-CAC8-443F-BE86-61EDD7E0A1F0}" ShortID="1026404950">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{0F50CD2F-4080-4F81-BDDB-8278B0E56911}" ShortID="1071646806">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Thunder_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{0F50CD2F-4080-4F81-BDDB-8278B0E56911}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{BE4B65B7-1F69-4B5B-A704-FE40914A3FDB}" ShortID="365552946">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{8CB6AE00-1DAF-4F51-98D7-64FEB4B57E46}" ShortID="63782902">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{8CB6AE00-1DAF-4F51-98D7-64FEB4B57E46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{5118ECB2-7A66-4A15-BFCF-07CFFF9A9717}" ShortID="729658557">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{FC104B13-7985-4BD6-81CB-46E0E6D1109A}" ShortID="524260968">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{FC104B13-7985-4BD6-81CB-46E0E6D1109A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{74B64D4F-F8F6-4CEE-A744-1D4DA6D8B408}" ShortID="429874404">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{43CB6920-2A09-41C3-9227-74E26959CE57}" ShortID="438726514">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Loop_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{43CB6920-2A09-41C3-9227-74E26959CE57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{334117B1-A283-4E33-BE20-0D8A46AD937D}" ShortID="93546977">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{6169CC73-AA2B-40B8-9363-780F700BC592}" ShortID="215565645">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{6169CC73-AA2B-40B8-9363-780F700BC592}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

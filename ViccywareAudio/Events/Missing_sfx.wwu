@@ -755,6 +755,38 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Thunderstorm" ID="{22859A0B-AEF3-47AA-AB2B-B9CD4CAFFEDE}" ShortID="281823764">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Thunder" ID="{1B5F7E55-6097-4497-AA89-DF0BAE0DDC95}">
+									<ChildrenList>
+										<Action Name="" ID="{9076800D-43CE-44F4-A6D3-2170B5989B79}" ShortID="1010835828">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{BE4B65B7-1F69-4B5B-A704-FE40914A3FDB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Emote_Weather_Thunder" ID="{60684601-4971-48F6-9A26-FB677B2A9DA0}">
+									<ChildrenList>
+										<Action Name="" ID="{4F91247B-5E5B-4078-B5C0-300EB46FF7C5}" ShortID="243590963">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{4D2476B8-CAC8-443F-BE86-61EDD7E0A1F0}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
