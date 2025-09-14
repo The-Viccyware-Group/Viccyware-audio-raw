@@ -1483,6 +1483,74 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Rain" ID="{17E0BC39-DD73-4B62-BA36-FA7AAB769DA8}" ShortID="1046223634">
+							<ChildrenList>
+								<Sound Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{049DD1B1-2FA8-4F93-B984-889BD0292ED7}" ShortID="701679674">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{DEE09D6D-B875-4463-B022-58CDD21B650B}" ShortID="484422039">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Rain_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{DEE09D6D-B875-4463-B022-58CDD21B650B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{9A3B8394-75B1-44EC-8B46-E155A58ECD69}" ShortID="342992515">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{047D0810-7369-46A4-B118-D9572AB8AA67}" ShortID="127325774">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Rain_Loop_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{047D0810-7369-46A4-B118-D9572AB8AA67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{EA67837A-D238-4217-885D-DB580C1FF86E}" ShortID="359611995">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{D79389D9-FA7F-4750-A85E-AA69F66CD853}" ShortID="694482698">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Rain_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{D79389D9-FA7F-4750-A85E-AA69F66CD853}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
