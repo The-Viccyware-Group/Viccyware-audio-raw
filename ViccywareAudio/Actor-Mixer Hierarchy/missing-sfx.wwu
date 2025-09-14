@@ -1019,6 +1019,118 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Weather" ID="{259434E7-46E5-41FB-950F-33C2160FC131}" ShortID="218462868">
+					<ChildrenList>
+						<Folder Name="Windy" ID="{D98E3382-6A66-4F9B-8495-149D3BF566BC}" ShortID="768533580">
+							<ChildrenList>
+								<Sound Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{5FC86F7D-50E0-4CBD-9B05-27542614A7AA}" ShortID="354160048">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{BCF41D6A-809A-4D65-A2B6-B1F0A4D77B13}" ShortID="331335047">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Windy_Loop_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{BCF41D6A-809A-4D65-A2B6-B1F0A4D77B13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{977CE449-A1CE-4817-9D5C-809B840F364A}" ShortID="13817225">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{95CED554-0D8B-4DC5-9EB6-CA6F99CCC25F}" ShortID="302390332">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Windy_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{95CED554-0D8B-4DC5-9EB6-CA6F99CCC25F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{9647E49C-33C2-48AC-A22B-0E6E18BF4510}" ShortID="484567245">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{492FA855-3012-4FA6-B068-F270E9E0D282}" ShortID="118617945">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{492FA855-3012-4FA6-B068-F270E9E0D282}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{36C1425D-FF8E-4009-A7D0-DB611055E606}" ShortID="271368800">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{A5BCF732-1F3A-4941-856D-5D8F1A4EFCF5}" ShortID="634585210">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Windy_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{A5BCF732-1F3A-4941-856D-5D8F1A4EFCF5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

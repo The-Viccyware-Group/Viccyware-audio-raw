@@ -707,6 +707,56 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Weather" ID="{7A9479F5-2957-42A7-9BE7-FA9E66B3B3D3}" ShortID="957488272">
+					<ChildrenList>
+						<Folder Name="Windy" ID="{4C674690-270F-495C-A4C9-973D1F8173AE}" ShortID="379282587">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Windy" ID="{C663F810-961E-4E4B-9417-68966EF7211B}">
+									<ChildrenList>
+										<Action Name="" ID="{A3967B34-23A0-4B04-8850-825081B7A9B1}" ShortID="881184074">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{977CE449-A1CE-4817-9D5C-809B840F364A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff" ID="{BD71F7D7-A9A2-40FC-9310-22556FF050A6}">
+									<ChildrenList>
+										<Action Name="" ID="{C5E32137-BD32-45D7-BFA1-4328921F9CFC}" ShortID="315118310">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{9647E49C-33C2-48AC-A22B-0E6E18BF4510}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Emote_Weather_Windy" ID="{BF50281B-FB04-4512-8F2F-1A28C65F0E94}">
+									<ChildrenList>
+										<Action Name="" ID="{78AEC229-0361-4E7B-940B-58CB22577C7C}" ShortID="41121044">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{36C1425D-FF8E-4009-A7D0-DB611055E606}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
