@@ -819,6 +819,24 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Stars" ID="{FA223D60-9CEF-4B57-8F90-BAE506F35146}" ShortID="274308992">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Stars" ID="{E318EE96-3F14-4A2A-B985-6673F78CC33A}">
+									<ChildrenList>
+										<Action Name="" ID="{4D59C41D-448E-4CB5-A063-A5FBF32A34E2}" ShortID="478494139">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{CE56CED5-23F0-48CF-8CE2-1B1B54AEAEBC}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
