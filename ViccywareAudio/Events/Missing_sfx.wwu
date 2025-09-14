@@ -887,6 +887,24 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Cold" ID="{FA283057-7D4C-4383-9EE9-8DAFF9FCE98D}" ShortID="266189780">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Weather_Cold" ID="{03614508-4F97-4BFB-A46B-7B938B377C9E}">
+									<ChildrenList>
+										<Action Name="" ID="{148687D2-7F45-4203-A390-B9AF25D8F651}" ShortID="418160745">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{6B9E0309-5AE4-4903-AC7E-C6F2C9D7578F}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

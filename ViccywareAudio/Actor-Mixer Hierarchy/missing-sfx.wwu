@@ -1551,6 +1551,29 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Cold" ID="{10CE5722-1DA4-4EFB-9C1E-5EED2E593A05}" ShortID="842505947">
+							<ChildrenList>
+								<Sound Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{6B9E0309-5AE4-4903-AC7E-C6F2C9D7578F}" ShortID="428201665">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{11A48192-BAFC-4605-8A3D-A99CB86583A5}" ShortID="23813374">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Weather_Cold_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{11A48192-BAFC-4605-8A3D-A99CB86583A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
