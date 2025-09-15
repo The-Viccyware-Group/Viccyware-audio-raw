@@ -1637,6 +1637,113 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="DSP" ID="{D2CF5E9F-6F63-4065-B593-661AFAEFAEA7}" ShortID="375097394">
+					<ChildrenList>
+						<Sound Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{6C52A0D8-1B19-440A-A7C0-3D654732BA9F}" ShortID="381413461">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>300</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PreFetchLength" Type="int16">
+									<ValueList>
+										<Value>150</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{AE034EDF-09AF-42DB-8A69-FC45539C7680}" ShortID="843083325">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Dsp_Loop_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{AE034EDF-09AF-42DB-8A69-FC45539C7680}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{18378A32-75A4-445B-9EC2-8F5606128FE2}" ShortID="130370347">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLantency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>300</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PreFetchLength" Type="int16">
+									<ValueList>
+										<Value>150</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{FAE8B657-B81D-49F0-AB3A-009BDEEA21EB}" ShortID="657984513">
+									<Language>SFX</Language>
+									<AudioFile>Robot_Vic_Sfx__Dsp_Loop_Off_WM.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{FAE8B657-B81D-49F0-AB3A-009BDEEA21EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

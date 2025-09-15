@@ -36,7 +36,9 @@
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_01" ID="{B76A8FA6-9D75-41B9-BE6C-7C5AA1BD5B46}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{3C86E926-CEF4-41C6-8E18-E1D25A185C1D}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Low_Light_Charging_Start" ID="{580F5EBE-A125-41FA-B164-BDCC0E1CEFBB}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Weather" ID="{259434E7-46E5-41FB-950F-33C2160FC131}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Weather" ID="{7A9479F5-2957-42A7-9BE7-FA9E66B3B3D3}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{4BCEB61B-98DA-42B5-806E-5F17F921DEB2}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Bored_Slot" ID="{180DD168-09AE-42C9-B1DC-82F054F4AF38}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
