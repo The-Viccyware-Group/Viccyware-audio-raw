@@ -27,6 +27,7 @@
 				<SoundBank Name="Missing_sfx" ID="{70EEC99C-B297-47A3-B37A-0251933A729A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_Off" ID="{39CCF6FF-B259-4064-875F-CE752BFC1278}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DSP" ID="{D2CF5E9F-6F63-4065-B593-661AFAEFAEA7}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Play" ID="{AA8A0C71-88EE-4068-905A-4CE8BAD4552E}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Bored_Pendulum" ID="{D7070B2D-3DF0-406C-8221-6F951CA6931D}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{AE3BFC6D-E91E-40C5-A8F6-034FCFA4A4BA}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
@@ -72,6 +73,7 @@
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{074E9A8B-41CE-4A9E-96C2-7EB162C43D8F}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_Play" ID="{081B4394-D5ED-4AF5-89F0-B6188FA1BC70}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On" ID="{CBF6FCC7-7C79-4AFD-B67A-12FBDA72844A}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DSP" ID="{0C3F9F6B-C087-4B1F-85EA-BE6F5A194716}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start" ID="{F97E3AD8-2D83-4B26-94C3-77ED204C0517}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Low_Light_Charging_End" ID="{E6D3C1A6-9837-4B9C-9B94-EEF2C8C4EC79}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>

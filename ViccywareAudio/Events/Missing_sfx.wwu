@@ -939,6 +939,38 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="DSP" ID="{0C3F9F6B-C087-4B1F-85EA-BE6F5A194716}" ShortID="769435757">
+					<ChildrenList>
+						<Event Name="Play__Robot_Vic_Sfx__Dsp_Loop_Play" ID="{F032423C-5903-4EA6-A751-098137224D37}">
+							<ChildrenList>
+								<Action Name="" ID="{E16350C3-AC6C-4D3A-8293-AF840EA2E506}" ShortID="584182607">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{E978842C-396E-445F-AEA7-FD323771E7B5}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop__Robot_Vic_Sfx__Dsp_Loop_Stop" ID="{AF382DF6-FB91-431C-851A-128F42B9BEB8}">
+							<ChildrenList>
+								<Action Name="" ID="{DAA918A0-4198-47B4-BC04-28E0155F4D48}" ShortID="606630037">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{18378A32-75A4-445B-9EC2-8F5606128FE2}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

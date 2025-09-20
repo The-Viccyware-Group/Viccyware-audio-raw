@@ -4,13 +4,13 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Cozmo_singing" Hash="3615627627" Timestamp="1753723117"/>
-				<File Name="Init" Hash="2666056332" Timestamp="1753723118"/>
-				<File Name="Missing_sfx" Hash="1051005780" Timestamp="1753723117"/>
+				<File Name="Init" Hash="2666056332" Timestamp="1758398484"/>
+				<File Name="Missing_sfx" Hash="1217303233" Timestamp="1758398484"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1580505180" Timestamp="1753723118"/>
+				<File Name="" Hash="2074983277" Timestamp="1758398484"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -19,12 +19,12 @@
 			<Language ID="393239870">
 				<File Name="Cozmo_singing" Hash="3615627627" Timestamp="1753723118"/>
 				<File Name="Init" Hash="2194566101" Timestamp="1752344426"/>
-				<File Name="Missing_sfx" Hash="1051005780" Timestamp="1753723118"/>
+				<File Name="Missing_sfx" Hash="1217303233" Timestamp="1758398485"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="764356541" Timestamp="1753723118"/>
+				<File Name="" Hash="4179020398" Timestamp="1758398485"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
