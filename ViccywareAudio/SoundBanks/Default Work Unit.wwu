@@ -27,7 +27,6 @@
 				<SoundBank Name="Missing_sfx" ID="{70EEC99C-B297-47A3-B37A-0251933A729A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_Off" ID="{39CCF6FF-B259-4064-875F-CE752BFC1278}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="DSP" ID="{D2CF5E9F-6F63-4065-B593-661AFAEFAEA7}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Play" ID="{AA8A0C71-88EE-4068-905A-4CE8BAD4552E}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Bored_Pendulum" ID="{D7070B2D-3DF0-406C-8221-6F951CA6931D}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{AE3BFC6D-E91E-40C5-A8F6-034FCFA4A4BA}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
@@ -58,6 +57,7 @@
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{56C728BC-1849-4687-A626-5D20E8BF60F4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_WM" ID="{1FF3380E-5951-4703-B091-9195F5011CEE}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_All_Loop_Stop" ID="{6212A2F1-4C2D-470D-9FB8-3A1653D45260}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play__Robot_Vic_Scene__Anim_Abort" ID="{14048ADD-C6A6-4718-A286-8C22325BBDF8}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Stop" ID="{A6BAF4ED-0DCE-47E1-ABA5-B2F0A65A8947}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Bored_Brickout" ID="{632CC8BE-F069-4813-8ADA-D9F097AD3FD4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>

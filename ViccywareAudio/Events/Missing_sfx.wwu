@@ -971,6 +971,16 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play__Robot_Vic_Scene__Anim_Abort" ID="{14048ADD-C6A6-4718-A286-8C22325BBDF8}">
+					<ChildrenList>
+						<Action Name="" ID="{17F3E9B9-CB76-4A04-A6C6-40FD301DB929}" ShortID="772536064">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
