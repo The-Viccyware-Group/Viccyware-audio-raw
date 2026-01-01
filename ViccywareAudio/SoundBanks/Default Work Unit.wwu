@@ -26,44 +26,56 @@
 				</SoundBank>
 				<SoundBank Name="Missing_sfx" ID="{70EEC99C-B297-47A3-B37A-0251933A729A}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{36C1425D-FF8E-4009-A7D0-DB611055E606}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_Off" ID="{39CCF6FF-B259-4064-875F-CE752BFC1278}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Play" ID="{AA8A0C71-88EE-4068-905A-4CE8BAD4552E}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Bored_Pendulum" ID="{D7070B2D-3DF0-406C-8221-6F951CA6931D}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Rain" ID="{66BBD533-113B-40BB-8345-DA9A42AAF6EE}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{AE3BFC6D-E91E-40C5-A8F6-034FCFA4A4BA}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Global_Loop_Stop" ID="{B93A323C-FD06-40D3-A41B-3CB23AA45221}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop__Robot_Vic_Sfx__Planning_Loop_Stop" ID="{C84F26D9-8094-4103-9603-A8FF118E7FBA}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{97D74F44-B14E-4167-99D2-542FDC90572A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{1BECB359-9173-417E-9ABE-6D5A2064FB24}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_01" ID="{B76A8FA6-9D75-41B9-BE6C-7C5AA1BD5B46}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{3C86E926-CEF4-41C6-8E18-E1D25A185C1D}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Low_Light_Charging_Start" ID="{580F5EBE-A125-41FA-B164-BDCC0E1CEFBB}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Weather" ID="{259434E7-46E5-41FB-950F-33C2160FC131}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Weather" ID="{7A9479F5-2957-42A7-9BE7-FA9E66B3B3D3}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{EA67837A-D238-4217-885D-DB580C1FF86E}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{4BCEB61B-98DA-42B5-806E-5F17F921DEB2}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Bored_Slot" ID="{180DD168-09AE-42C9-B1DC-82F054F4AF38}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cold" ID="{FA283057-7D4C-4383-9EE9-8DAFF9FCE98D}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Short" ID="{70F711D1-1182-4393-BB5F-A2550822C8EE}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play__Robot_Sfx__Bored_Brickout" ID="{6CB9E935-C108-43A3-825C-7D6F8ABF26EC}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End" ID="{19D7DC4B-770E-43EE-BBF3-AC4C94CA16F9}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{4D2476B8-CAC8-443F-BE86-61EDD7E0A1F0}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{4D8C9B07-311D-449E-8F48-91296BC0AFF6}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play__Robot_Vo__Shared_Inhale_Breath_Medium" ID="{0131CE31-96F8-44CC-B9AD-71A171C77BF1}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_Play" ID="{7F319C7A-1A00-44F2-80BF-5A910A1FE221}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play__Robot_Sfx__Bored_Slot" ID="{69F8D3A7-8E21-451E-8A29-649DE484AEED}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Touch_React" ID="{9FF7A2C2-1573-4524-897B-79216AD42601}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{6FF94B1A-E6B8-4548-9398-5A95749FA431}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{CFFDF24F-12DD-4577-99CA-64E0E31A1ED8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{DD8593E4-760F-45C0-9CA5-88C8E42D1055}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Focus_2" ID="{8A7E8E88-00B2-45F0-B2C9-EB755DF0EF31}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{F1D906FB-68DB-45FB-A3EF-D1667D5B1E37}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Snow" ID="{14E5A5B5-376F-4622-BEBA-00490C53EC4D}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{56C728BC-1849-4687-A626-5D20E8BF60F4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_WM" ID="{1FF3380E-5951-4703-B091-9195F5011CEE}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_All_Loop_Stop" ID="{6212A2F1-4C2D-470D-9FB8-3A1653D45260}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Scene__Anim_Abort" ID="{14048ADD-C6A6-4718-A286-8C22325BBDF8}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Thunderstorm" ID="{22859A0B-AEF3-47AA-AB2B-B9CD4CAFFEDE}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Stop" ID="{A6BAF4ED-0DCE-47E1-ABA5-B2F0A65A8947}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9AD259DC-D7C4-47E8-9458-CA742FB233A4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Sunny" ID="{DBB71461-89E8-47F7-9BD4-D12FC7DC7A7D}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Bored_Brickout" ID="{632CC8BE-F069-4813-8ADA-D9F097AD3FD4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{977CE449-A1CE-4817-9D5C-809B840F364A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_Play" ID="{C288D75F-7AA1-487A-AFF2-0254862AAF95}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{CE56CED5-23F0-48CF-8CE2-1B1B54AEAEBC}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Cloudy" ID="{A5ABFE64-F15C-48D9-9F32-80F266946772}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{4015200C-48D1-4902-BAD6-11A8916B9805}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{6B9E0309-5AE4-4903-AC7E-C6F2C9D7578F}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Windy" ID="{4C674690-270F-495C-A4C9-973D1F8173AE}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_Stop" ID="{143E02E1-B62E-49BA-928E-C378F9BA37B8}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Planning_Loop_Play" ID="{32329812-D28B-49D2-9FAC-5633472E0DAF}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{09AC8D7F-5C4E-4A57-A1C5-463248407AE2}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
@@ -73,12 +85,15 @@
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{074E9A8B-41CE-4A9E-96C2-7EB162C43D8F}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_Play" ID="{081B4394-D5ED-4AF5-89F0-B6188FA1BC70}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On" ID="{CBF6FCC7-7C79-4AFD-B67A-12FBDA72844A}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="DSP" ID="{0C3F9F6B-C087-4B1F-85EA-BE6F5A194716}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start" ID="{F97E3AD8-2D83-4B26-94C3-77ED204C0517}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{76D8FA5E-5445-4B41-9436-4BD9231A46FE}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stars" ID="{FA223D60-9CEF-4B57-8F90-BAE506F35146}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{BE4B65B7-1F69-4B5B-A704-FE40914A3FDB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Low_Light_Charging_End" ID="{E6D3C1A6-9837-4B9C-9B94-EEF2C8C4EC79}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_Play" ID="{1BF2CBDD-921B-4BAC-A1B0-C09CC0E4396F}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Charge_Play" ID="{805EC3E6-0610-4BB1-831C-0EECEACE23D7}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{4C5EFE69-0B2D-4C34-BD29-CBAE64A75FB2}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_Stop" ID="{60D51A01-86DD-4C4D-A0D0-2DE76C16D7A3}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Firetruck" ID="{7EAE8023-E19A-4CEC-BD64-2131C4C9D69B}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Mismatched_Eyes" ID="{F710B13C-C7B3-4CF0-A6BE-FBD51778E029}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
@@ -87,15 +102,15 @@
 						<ObjectRef Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{074FA75C-F7A3-4D39-A672-1400001B2023}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{C5828A9B-D04C-4D85-81A4-83F133E3E1A7}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Crooked" ID="{53D66B82-4103-4EAC-9B39-C3B38A7232FA}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play__Robot_Vo__Codelab_Firetruck" ID="{8F36CFA2-AA6D-4EB0-BC37-70426B88132C}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_Stop" ID="{97AC104C-FF0F-4ECD-9677-30D081F40168}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Focus_1" ID="{166DF8EC-024D-4ED7-88AC-8BA070375760}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Breath_medium_inhale" ID="{0059B9D5-5CE5-4EFB-939E-07D19BF5D1EC}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop" ID="{2089942D-9EA8-4F0E-9454-63F7B25D9A32}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play__Robot_Sfx__Bored_Pendulum" ID="{AE1E5320-E421-4F26-8AA5-877BEE0123B9}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Fire" ID="{07B5C6B0-1258-4F4E-937B-BDE0EAA26947}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_Off_WM" ID="{EC15857F-4BB5-4F92-A7E1-7E291A1BB2E8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{049DD1B1-2FA8-4F93-B984-889BD0292ED7}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Focus" ID="{5AE15C12-8EE6-4FC5-8885-7A2B5A7C518E}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Sunny" ID="{D545C455-C61E-4FEC-AFF5-BEAEAA0CB8E2}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

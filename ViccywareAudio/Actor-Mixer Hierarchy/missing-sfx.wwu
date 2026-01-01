@@ -3,124 +3,9 @@
 	<AudioObjects>
 		<WorkUnit Name="missing-sfx" ID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" OwnerID="{BCAB9D89-6730-45A5-A1CD-35E58E664371}" PersistMode="Nested">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Breath_medium_inhale" ID="{0059B9D5-5CE5-4EFB-939E-07D19BF5D1EC}" ShortID="336054478">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Cozmo" ID="{C26DA999-3E81-4DE2-A4EC-5157CCEF9008}" ShortID="1015868516">
 					<ChildrenList>
-						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{2C0875EF-4950-4B36-8091-AE8632DFF975}" ShortID="483636199">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{36D8B895-4E4D-4F05-BCB9-00B43AD2B9B1}" ShortID="587862066">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{36D8B895-4E4D-4F05-BCB9-00B43AD2B9B1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{356389ED-75C3-4CAC-ADE8-9DBD921487EC}" ShortID="1046257377">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{E3BF4C5D-C4EE-4089-9F0F-2CF73BE67BCD}" ShortID="801968429">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{E3BF4C5D-C4EE-4089-9F0F-2CF73BE67BCD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{EE9E08B4-9DE8-44ED-988B-84354F32A2C5}" ShortID="402551249">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{8C3E5AB5-F5E0-4B8F-8A87-A92377A6FF75}" ShortID="670442156">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{8C3E5AB5-F5E0-4B8F-8A87-A92377A6FF75}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{3C11AF5B-7E02-413C-855B-42B9B07101AF}" ShortID="8973396">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{027B7DD6-FEAA-4C69-8527-B10688F70F7A}" ShortID="764552563">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{027B7DD6-FEAA-4C69-8527-B10688F70F7A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{F50E512C-7BE5-4CE7-86EE-5423DB0A5F7D}" ShortID="676966481">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{9AFBEEB1-7B44-4346-BBD7-4328D1683D44}" ShortID="612354249">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{9AFBEEB1-7B44-4346-BBD7-4328D1683D44}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Firetruck" ID="{7EAE8023-E19A-4CEC-BD64-2131C4C9D69B}" ShortID="1033883012">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{5D7313BC-198B-4890-9D7D-6AF1D6E74952}" ShortID="100855354">
+						<RandomSequenceContainer Name="Breath_medium_inhale" ID="{0059B9D5-5CE5-4EFB-939E-07D19BF5D1EC}" ShortID="336054478">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
@@ -130,995 +15,114 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{0CB3AED5-2273-40C5-9116-13AD11173F75}" ShortID="621609733">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Codelab_Firetruck_01_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{0CB3AED5-2273-40C5-9116-13AD11173F75}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{E22F1482-CA36-430D-BE28-BCDC98F59593}" ShortID="549100156">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{DD70EDC8-F28A-489A-B905-9B1085BF2F8B}" ShortID="137932741">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Codelab_Firetruck_02_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{DD70EDC8-F28A-489A-B905-9B1085BF2F8B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{AB9146D0-E331-4200-9E4D-E9DD021E84A1}" ShortID="534750438">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{FF9EFB34-A6DB-49E7-82F6-20D7F05E1475}" ShortID="697066089">
-									<Language>SFX</Language>
-									<AudioFile>Robot_VO__Codelab_Firetruck_03_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{FF9EFB34-A6DB-49E7-82F6-20D7F05E1475}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
-				<Folder Name="Bored" ID="{03688ABA-8953-45FF-8953-8585C84A6BAF}" ShortID="760385980">
-					<ChildrenList>
-						<Sound Name="Robot_SFX__Bored_Slot" ID="{180DD168-09AE-42C9-B1DC-82F054F4AF38}" ShortID="627775911">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_SFX__Bored_Slot" ID="{3460596C-95E6-487B-A320-60A949A4F497}" ShortID="234497864">
-									<Language>SFX</Language>
-									<AudioFile>Robot_SFX__Bored_Slot.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_SFX__Bored_Slot" ID="{3460596C-95E6-487B-A320-60A949A4F497}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_SFX__Bored_Brickout" ID="{632CC8BE-F069-4813-8ADA-D9F097AD3FD4}" ShortID="594130858">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_SFX__Bored_Brickout" ID="{E3955704-9E54-473A-9357-C7D92A835FA6}" ShortID="657443070">
-									<Language>SFX</Language>
-									<AudioFile>Robot_SFX__Bored_Brickout.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_SFX__Bored_Brickout" ID="{E3955704-9E54-473A-9357-C7D92A835FA6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_SFX__Bored_Pendulum" ID="{D7070B2D-3DF0-406C-8221-6F951CA6931D}" ShortID="372272291">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_SFX__Bored_Pendulum" ID="{0FDBF32D-8242-416B-9F1E-EFA97966CAB2}" ShortID="942985136">
-									<Language>SFX</Language>
-									<AudioFile>Robot_SFX__Bored_Pendulum.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_SFX__Bored_Pendulum" ID="{0FDBF32D-8242-416B-9F1E-EFA97966CAB2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Arcade" ID="{07A59FC9-C974-451C-974F-0E07D0E32E53}" ShortID="257967499">
-					<ChildrenList>
-						<Sound Name="Robot_SFX__Arcade_Bouncer_Fail" ID="{83D5922A-8506-4B25-A2D9-C5FD1790E14E}" ShortID="90552485">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_SFX__Arcade_Bouncer_Fail" ID="{A55AD3AF-7799-4911-B151-524063C65FE1}" ShortID="776767503">
-									<Language>SFX</Language>
-									<AudioFile>Robot_SFX__Arcade_Bouncer_Fail.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_SFX__Arcade_Bouncer_Fail" ID="{A55AD3AF-7799-4911-B151-524063C65FE1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_SFX__Arcade_Bouncer_Bounce" ID="{F9C73E60-1DB0-49B6-8A1C-99251EC323FD}" ShortID="348914439">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_SFX__Arcade_Bouncer_Bounce" ID="{4654415A-DD60-4F96-861A-86645E88E919}" ShortID="955568582">
-									<Language>SFX</Language>
-									<AudioFile>Robot_SFX__Arcade_Bouncer_Bounce.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_SFX__Arcade_Bouncer_Bounce" ID="{4654415A-DD60-4F96-861A-86645E88E919}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Camera" ID="{A8C03620-04FB-446E-8EE0-CBBFB4B9A318}" ShortID="237178186">
-					<ChildrenList>
-						<Sound Name="Robot_Vic_Sfx__Camera_Focus_WM_01" ID="{B76A8FA6-9D75-41B9-BE6C-7C5AA1BD5B46}" ShortID="358818375">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>30</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{DA558B8D-C653-432C-85B0-90D565393F74}" ShortID="661945821">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Camera_Focus_WM.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="260498101"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{DA558B8D-C653-432C-85B0-90D565393F74}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{C5828A9B-D04C-4D85-81A4-83F133E3E1A7}" ShortID="159674618">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{11FE9A1C-B60A-44D5-961D-080A9B6ECB44}" ShortID="698113681">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Camera_Charge_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{11FE9A1C-B60A-44D5-961D-080A9B6ECB44}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{AE3BFC6D-E91E-40C5-A8F6-034FCFA4A4BA}" ShortID="474516412">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{19A1C1FB-15E5-403A-80F5-CA81D54D9CF6}" ShortID="133119974">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Camera_Flash_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{19A1C1FB-15E5-403A-80F5-CA81D54D9CF6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{09AC8D7F-5C4E-4A57-A1C5-463248407AE2}" ShortID="979041650">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{8B3B85DF-CD11-4767-BEDD-C148DE77A646}" ShortID="1016379772">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Camera_Focus_WM.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="260498101"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{8B3B85DF-CD11-4767-BEDD-C148DE77A646}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" ShortID="800310198">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>60</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{E369490F-448A-455E-A4EF-73D7FEB28E57}" ShortID="260498101">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Camera_Focus_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{E369490F-448A-455E-A4EF-73D7FEB28E57}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Power" ID="{52275520-6CE3-46D9-985E-4A1086F9EF52}" ShortID="770542378">
-					<ChildrenList>
-						<Sound Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{074E9A8B-41CE-4A9E-96C2-7EB162C43D8F}" ShortID="598068743">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{5DFF9CF7-4C64-4321-AAAD-A568F74E83AC}" ShortID="277236138">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Power_On_Short_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{5DFF9CF7-4C64-4321-AAAD-A568F74E83AC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{4D8C9B07-311D-449E-8F48-91296BC0AFF6}" ShortID="12493573">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-150</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{E17598DF-42B7-4B04-8128-0DE111FFCF9A}" ShortID="470240706">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{E17598DF-42B7-4B04-8128-0DE111FFCF9A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{4015200C-48D1-4902-BAD6-11A8916B9805}" ShortID="7973737">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{AD9AD0DD-9B9D-4F58-99C4-E2A4BF544529}" ShortID="84337024">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Power_Off_End_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{AD9AD0DD-9B9D-4F58-99C4-E2A4BF544529}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{56C728BC-1849-4687-A626-5D20E8BF60F4}" ShortID="835643042">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{3B57F5AA-0A01-423F-A16D-E6CC28951FE0}" ShortID="370748333">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Power_On_Crooked_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{3B57F5AA-0A01-423F-A16D-E6CC28951FE0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{3C86E926-CEF4-41C6-8E18-E1D25A185C1D}" ShortID="307565652">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{F40D76D9-8D59-4FFF-8254-FDA98005BDDB}" ShortID="264894955">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{F40D76D9-8D59-4FFF-8254-FDA98005BDDB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Power_Off_WM" ID="{EC15857F-4BB5-4F92-A7E1-7E291A1BB2E8}" ShortID="427584483">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Power_Off_WM" ID="{9AD45F5F-EFF6-4BEE-9CEB-6763FA862B98}" ShortID="1039352055">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Power_Off_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Power_Off_WM" ID="{9AD45F5F-EFF6-4BEE-9CEB-6763FA862B98}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{6FF94B1A-E6B8-4548-9398-5A95749FA431}" ShortID="268886496">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-100</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{384FE381-51E9-4C07-B821-C8E6C38B5BAA}" ShortID="452607584">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{384FE381-51E9-4C07-B821-C8E6C38B5BAA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Power_On_WM" ID="{1FF3380E-5951-4703-B091-9195F5011CEE}" ShortID="290275257">
-							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>46</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-300</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Power_On_WM" ID="{7F87C30E-1CFD-46F7-87F8-AB0A69C5FDB2}" ShortID="521533998">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Power_On_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Power_On_WM" ID="{7F87C30E-1CFD-46F7-87F8-AB0A69C5FDB2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Onboarding" ID="{A129F0EB-23DE-423A-87A6-2B830E735475}" ShortID="811888080">
-					<ChildrenList>
-						<Sound Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{949250DF-6C5F-4D12-B032-E8C04E198EFB}" ShortID="37967437">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{521D9A0D-32DF-4F77-BF45-F88B9BF28F5A}" ShortID="977092656">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{521D9A0D-32DF-4F77-BF45-F88B9BF28F5A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{074FA75C-F7A3-4D39-A672-1400001B2023}" ShortID="240846011">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{2A27FBF5-19F1-4AA7-8ED3-AACFBE26A889}" ShortID="919930125">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{2A27FBF5-19F1-4AA7-8ED3-AACFBE26A889}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Exploring" ID="{B01A01A7-8367-433E-A39C-F68853BA2A77}" ShortID="914303688">
-					<ChildrenList>
-						<Sound Name="Robot_SFX__Explorer_Night_Vision_On" ID="{ED65233F-12A2-4A7A-88D7-26295AACD270}" ShortID="666936921">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-1360</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-15</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_SFX__Explorer_Night_Vision_On" ID="{BE4A24A3-682C-4009-9816-3701EF70F3E9}" ShortID="984092153">
-									<Language>SFX</Language>
-									<AudioFile>Robot_SFX__Explorer_Night_Vision_On.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_SFX__Explorer_Night_Vision_On" ID="{BE4A24A3-682C-4009-9816-3701EF70F3E9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{4BCEB61B-98DA-42B5-806E-5F17F921DEB2}" ShortID="1049371024">
-							<PropertyList>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-1360</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-15</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{78D3EC93-92BD-498E-9AE8-231DC28A9B7E}" ShortID="666735090">
-									<Language>SFX</Language>
-									<AudioFile>Robot_SFX__Explorer_Night_Vision_Off.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{78D3EC93-92BD-498E-9AE8-231DC28A9B7E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{DD8593E4-760F-45C0-9CA5-88C8E42D1055}" ShortID="142153244">
-							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>40</Value>
-									</ValueList>
-								</Property>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-900</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{5C6F363E-F5D1-4BAE-B68E-93ACD3E5E616}" ShortID="713912773">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Planning_Loop_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{5C6F363E-F5D1-4BAE-B68E-93ACD3E5E616}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Snowglobe" ID="{9F6E5177-6C19-4DC6-A045-D6EB98B32E7E}" ShortID="210538759">
-					<ChildrenList>
-						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{97D74F44-B14E-4167-99D2-542FDC90572A}" ShortID="231704657">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{EC582CD5-3CCD-42C2-87E5-C72A1DAC6E8E}" ShortID="893825475">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{EC582CD5-3CCD-42C2-87E5-C72A1DAC6E8E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" ShortID="136507678">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{D0975895-E15D-49C4-BBA1-FCA8A01A154B}" ShortID="1012618777">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{D0975895-E15D-49C4-BBA1-FCA8A01A154B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" ShortID="834632883">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-14</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{FBD83915-5165-40E4-AF28-88395E7FFA0B}" ShortID="709071018">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{FBD83915-5165-40E4-AF28-88395E7FFA0B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{1BECB359-9173-417E-9ABE-6D5A2064FB24}" ShortID="177563158">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-240</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{B4353D1B-C28A-4922-89AF-2F25CCA38FAB}" ShortID="406187370">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{B4353D1B-C28A-4922-89AF-2F25CCA38FAB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" ShortID="550700813">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{447AAFF8-65EE-4B59-B960-F85855F34E4E}" ShortID="753031588">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{447AAFF8-65EE-4B59-B960-F85855F34E4E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" ShortID="991795903">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{55D8EE8C-BD60-46B4-B6A8-12A47F043ACB}" ShortID="581551155">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{55D8EE8C-BD60-46B4-B6A8-12A47F043ACB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" ShortID="289686421">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC4A0C27-1CF8-4143-B073-953359DBF55B}" ShortID="774827322">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC4A0C27-1CF8-4143-B073-953359DBF55B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Weather" ID="{259434E7-46E5-41FB-950F-33C2160FC131}" ShortID="218462868">
-					<ChildrenList>
-						<Folder Name="Windy" ID="{D98E3382-6A66-4F9B-8495-149D3BF566BC}" ShortID="768533580">
-							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{5FC86F7D-50E0-4CBD-9B05-27542614A7AA}" ShortID="354160048">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{2C0875EF-4950-4B36-8091-AE8632DFF975}" ShortID="483636199">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{BCF41D6A-809A-4D65-A2B6-B1F0A4D77B13}" ShortID="331335047">
+										<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{36D8B895-4E4D-4F05-BCB9-00B43AD2B9B1}" ShortID="587862066">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Windy_Loop_WM.wav</AudioFile>
+											<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{BCF41D6A-809A-4D65-A2B6-B1F0A4D77B13}" Platform="Linked"/>
+										<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_05_WM" ID="{36D8B895-4E4D-4F05-BCB9-00B43AD2B9B1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{977CE449-A1CE-4817-9D5C-809B840F364A}" ShortID="13817225">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{356389ED-75C3-4CAC-ADE8-9DBD921487EC}" ShortID="1046257377">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{95CED554-0D8B-4DC5-9EB6-CA6F99CCC25F}" ShortID="302390332">
+										<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{E3BF4C5D-C4EE-4089-9F0F-2CF73BE67BCD}" ShortID="801968429">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Windy_WM.wav</AudioFile>
+											<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{95CED554-0D8B-4DC5-9EB6-CA6F99CCC25F}" Platform="Linked"/>
+										<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_08_WM" ID="{E3BF4C5D-C4EE-4089-9F0F-2CF73BE67BCD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{9647E49C-33C2-48AC-A22B-0E6E18BF4510}" ShortID="484567245">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{EE9E08B4-9DE8-44ED-988B-84354F32A2C5}" ShortID="402551249">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{492FA855-3012-4FA6-B068-F270E9E0D282}" ShortID="118617945">
+										<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{8C3E5AB5-F5E0-4B8F-8A87-A92377A6FF75}" ShortID="670442156">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM.wav</AudioFile>
+											<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{492FA855-3012-4FA6-B068-F270E9E0D282}" Platform="Linked"/>
+										<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_01_WM" ID="{8C3E5AB5-F5E0-4B8F-8A87-A92377A6FF75}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{36C1425D-FF8E-4009-A7D0-DB611055E606}" ShortID="271368800">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{3C11AF5B-7E02-413C-855B-42B9B07101AF}" ShortID="8973396">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{027B7DD6-FEAA-4C69-8527-B10688F70F7A}" ShortID="764552563">
+											<Language>SFX</Language>
+											<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_06_WM" ID="{027B7DD6-FEAA-4C69-8527-B10688F70F7A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{F50E512C-7BE5-4CE7-86EE-5423DB0A5F7D}" ShortID="676966481">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{9AFBEEB1-7B44-4346-BBD7-4328D1683D44}" ShortID="612354249">
+											<Language>SFX</Language>
+											<AudioFile>Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_VO__Shared_Inhale_Take_Breath_Medium_04_WM" ID="{9AFBEEB1-7B44-4346-BBD7-4328D1683D44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Firetruck" ID="{7EAE8023-E19A-4CEC-BD64-2131C4C9D69B}" ShortID="1033883012">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{5D7313BC-198B-4890-9D7D-6AF1D6E74952}" ShortID="100855354">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
@@ -1128,51 +132,260 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{A5BCF732-1F3A-4941-856D-5D8F1A4EFCF5}" ShortID="634585210">
+										<AudioFileSource Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{0CB3AED5-2273-40C5-9116-13AD11173F75}" ShortID="621609733">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Windy_WM.wav</AudioFile>
+											<AudioFile>Robot_VO__Codelab_Firetruck_01_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{A5BCF732-1F3A-4941-856D-5D8F1A4EFCF5}" Platform="Linked"/>
+										<ActiveSource Name="Robot_VO__Codelab_Firetruck_01_WM" ID="{0CB3AED5-2273-40C5-9116-13AD11173F75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{E22F1482-CA36-430D-BE28-BCDC98F59593}" ShortID="549100156">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{DD70EDC8-F28A-489A-B905-9B1085BF2F8B}" ShortID="137932741">
+											<Language>SFX</Language>
+											<AudioFile>Robot_VO__Codelab_Firetruck_02_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_VO__Codelab_Firetruck_02_WM" ID="{DD70EDC8-F28A-489A-B905-9B1085BF2F8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{AB9146D0-E331-4200-9E4D-E9DD021E84A1}" ShortID="534750438">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{FF9EFB34-A6DB-49E7-82F6-20D7F05E1475}" ShortID="697066089">
+											<Language>SFX</Language>
+											<AudioFile>Robot_VO__Codelab_Firetruck_03_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_VO__Codelab_Firetruck_03_WM" ID="{FF9EFB34-A6DB-49E7-82F6-20D7F05E1475}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Folder Name="Bored" ID="{03688ABA-8953-45FF-8953-8585C84A6BAF}" ShortID="760385980">
+							<ChildrenList>
+								<Sound Name="Robot_SFX__Bored_Slot" ID="{180DD168-09AE-42C9-B1DC-82F054F4AF38}" ShortID="627775911">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_SFX__Bored_Slot" ID="{3460596C-95E6-487B-A320-60A949A4F497}" ShortID="234497864">
+											<Language>SFX</Language>
+											<AudioFile>Robot_SFX__Bored_Slot.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_SFX__Bored_Slot" ID="{3460596C-95E6-487B-A320-60A949A4F497}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_SFX__Bored_Brickout" ID="{632CC8BE-F069-4813-8ADA-D9F097AD3FD4}" ShortID="594130858">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_SFX__Bored_Brickout" ID="{E3955704-9E54-473A-9357-C7D92A835FA6}" ShortID="657443070">
+											<Language>SFX</Language>
+											<AudioFile>Robot_SFX__Bored_Brickout.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_SFX__Bored_Brickout" ID="{E3955704-9E54-473A-9357-C7D92A835FA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_SFX__Bored_Pendulum" ID="{D7070B2D-3DF0-406C-8221-6F951CA6931D}" ShortID="372272291">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_SFX__Bored_Pendulum" ID="{0FDBF32D-8242-416B-9F1E-EFA97966CAB2}" ShortID="942985136">
+											<Language>SFX</Language>
+											<AudioFile>Robot_SFX__Bored_Pendulum.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_SFX__Bored_Pendulum" ID="{0FDBF32D-8242-416B-9F1E-EFA97966CAB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Folder Name="Arcade" ID="{07A59FC9-C974-451C-974F-0E07D0E32E53}" ShortID="257967499">
+									<ChildrenList>
+										<Sound Name="Robot_SFX__Arcade_Bouncer_Fail" ID="{83D5922A-8506-4B25-A2D9-C5FD1790E14E}" ShortID="90552485">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_SFX__Arcade_Bouncer_Fail" ID="{A55AD3AF-7799-4911-B151-524063C65FE1}" ShortID="776767503">
+													<Language>SFX</Language>
+													<AudioFile>Robot_SFX__Arcade_Bouncer_Fail.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_SFX__Arcade_Bouncer_Fail" ID="{A55AD3AF-7799-4911-B151-524063C65FE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_SFX__Arcade_Bouncer_Bounce" ID="{F9C73E60-1DB0-49B6-8A1C-99251EC323FD}" ShortID="348914439">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_SFX__Arcade_Bouncer_Bounce" ID="{4654415A-DD60-4F96-861A-86645E88E919}" ShortID="955568582">
+													<Language>SFX</Language>
+													<AudioFile>Robot_SFX__Arcade_Bouncer_Bounce.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_SFX__Arcade_Bouncer_Bounce" ID="{4654415A-DD60-4F96-861A-86645E88E919}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Vector" ID="{98ED8EAC-EB10-42AE-9423-954E8BB7C3CF}" ShortID="5850317">
+					<ChildrenList>
+						<Folder Name="LowLight" ID="{10AA3655-03B3-407B-B803-C5D2910345F2}" ShortID="989138117">
+							<ChildrenList>
+								<Sound Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{4BCEB61B-98DA-42B5-806E-5F17F921DEB2}" ShortID="1049371024">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1360</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{78D3EC93-92BD-498E-9AE8-231DC28A9B7E}" ShortID="666735090">
+											<Language>SFX</Language>
+											<AudioFile>Robot_SFX__Explorer_Night_Vision_Off.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_SFX__Explorer_Night_Vision_Off" ID="{78D3EC93-92BD-498E-9AE8-231DC28A9B7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_SFX__Explorer_Night_Vision_On" ID="{ED65233F-12A2-4A7A-88D7-26295AACD270}" ShortID="666936921">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1360</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_SFX__Explorer_Night_Vision_On" ID="{BE4A24A3-682C-4009-9816-3701EF70F3E9}" ShortID="984092153">
+											<Language>SFX</Language>
+											<AudioFile>Robot_SFX__Explorer_Night_Vision_On.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_SFX__Explorer_Night_Vision_On" ID="{BE4A24A3-682C-4009-9816-3701EF70F3E9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Thunderstorm" ID="{01E80769-477C-40B4-9A38-EE6676F7934D}" ShortID="453329532">
+						<Folder Name="Onboarding" ID="{A129F0EB-23DE-423A-87A6-2B830E735475}" ShortID="811888080">
 							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{9A340357-EB05-4654-B260-21246ED3254D}" ShortID="930331413">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{1E0FD8EC-B743-4186-B191-743C035B9A4D}" ShortID="947948894">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{1E0FD8EC-B743-4186-B191-743C035B9A4D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{4D2476B8-CAC8-443F-BE86-61EDD7E0A1F0}" ShortID="1026404950">
+								<Sound Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{949250DF-6C5F-4D12-B032-E8C04E198EFB}" ShortID="37967437">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1182,48 +395,24 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{0F50CD2F-4080-4F81-BDDB-8278B0E56911}" ShortID="1071646806">
+										<AudioFileSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{521D9A0D-32DF-4F77-BF45-F88B9BF28F5A}" ShortID="977092656">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Thunder_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{0F50CD2F-4080-4F81-BDDB-8278B0E56911}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Initialize_WM" ID="{521D9A0D-32DF-4F77-BF45-F88B9BF28F5A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{BE4B65B7-1F69-4B5B-A704-FE40914A3FDB}" ShortID="365552946">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{8CB6AE00-1DAF-4F51-98D7-64FEB4B57E46}" ShortID="63782902">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{8CB6AE00-1DAF-4F51-98D7-64FEB4B57E46}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{5118ECB2-7A66-4A15-BFCF-07CFFF9A9717}" ShortID="729658557">
+								<Sound Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{074FA75C-F7A3-4D39-A672-1400001B2023}" ShortID="240846011">
 									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -1232,89 +421,34 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{FC104B13-7985-4BD6-81CB-46E0E6D1109A}" ShortID="524260968">
+										<AudioFileSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{2A27FBF5-19F1-4AA7-8ED3-AACFBE26A889}" ShortID="919930125">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{FC104B13-7985-4BD6-81CB-46E0E6D1109A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{74B64D4F-F8F6-4CEE-A744-1D4DA6D8B408}" ShortID="429874404">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{43CB6920-2A09-41C3-9227-74E26959CE57}" ShortID="438726514">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Loop_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{43CB6920-2A09-41C3-9227-74E26959CE57}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{334117B1-A283-4E33-BE20-0D8A46AD937D}" ShortID="93546977">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{6169CC73-AA2B-40B8-9363-780F700BC592}" ShortID="215565645">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{6169CC73-AA2B-40B8-9363-780F700BC592}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Onboarding_Power_On_Eyes_Open_WM" ID="{2A27FBF5-19F1-4AA7-8ED3-AACFBE26A889}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Sunny" ID="{E6CFDA75-676F-48E4-ABBB-3C61071417FE}" ShortID="579196584">
+						<Folder Name="Snowglobe" ID="{9F6E5177-6C19-4DC6-A045-D6EB98B32E7E}" ShortID="210538759">
 							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{76D8FA5E-5445-4B41-9436-4BD9231A46FE}" ShortID="763241294">
+								<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{97D74F44-B14E-4167-99D2-542FDC90572A}" ShortID="231704657">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
@@ -1324,16 +458,24 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{723E1D59-1071-4FB0-A0BB-82B43F806C15}" ShortID="940104252">
+										<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{EC582CD5-3CCD-42C2-87E5-C72A1DAC6E8E}" ShortID="893825475">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Sunny_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{723E1D59-1071-4FB0-A0BB-82B43F806C15}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End_WM" ID="{EC582CD5-3CCD-42C2-87E5-C72A1DAC6E8E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="Robot_Vic_Sfx__Weather_Sunny" ID="{DBB71461-89E8-47F7-9BD4-D12FC7DC7A7D}" ShortID="818523006">
+								<Sound Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" ShortID="136507678">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
@@ -1343,7 +485,168 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{1DA7A22A-9F27-490E-8678-E1BF03737C80}" ShortID="656526296">
+										<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{D0975895-E15D-49C4-BBA1-FCA8A01A154B}" ShortID="1012618777">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{D0975895-E15D-49C4-BBA1-FCA8A01A154B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" ShortID="834632883">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{FBD83915-5165-40E4-AF28-88395E7FFA0B}" ShortID="709071018">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{FBD83915-5165-40E4-AF28-88395E7FFA0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{1BECB359-9173-417E-9ABE-6D5A2064FB24}" ShortID="177563158">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-240</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{B4353D1B-C28A-4922-89AF-2F25CCA38FAB}" ShortID="406187370">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start_WM" ID="{B4353D1B-C28A-4922-89AF-2F25CCA38FAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{B861FCF4-583B-420B-93BB-C9ADA69BD4AB}" ShortID="550700813">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{447AAFF8-65EE-4B59-B960-F85855F34E4E}" ShortID="753031588">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Medium_WM" ID="{447AAFF8-65EE-4B59-B960-F85855F34E4E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" ShortID="991795903">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{55D8EE8C-BD60-46B4-B6A8-12A47F043ACB}" ShortID="581551155">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{55D8EE8C-BD60-46B4-B6A8-12A47F043ACB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC7C4D9A-04E1-48CD-92D7-61849EA6C8AD}" ShortID="289686421">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC4A0C27-1CF8-4143-B073-953359DBF55B}" ShortID="774827322">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_WM" ID="{CC4A0C27-1CF8-4143-B073-953359DBF55B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Weather" ID="{259434E7-46E5-41FB-950F-33C2160FC131}" ShortID="218462868">
+							<ChildrenList>
+								<Folder Name="Windy" ID="{D98E3382-6A66-4F9B-8495-149D3BF566BC}" ShortID="768533580">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{5FC86F7D-50E0-4CBD-9B05-27542614A7AA}" ShortID="354160048">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
@@ -1353,16 +656,23 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{D5B863D2-8408-4138-B661-1C072F9BDD8D}" ShortID="747352869">
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{BCF41D6A-809A-4D65-A2B6-B1F0A4D77B13}" ShortID="331335047">
 													<Language>SFX</Language>
-													<AudioFile>Robot_Vic_Sfx__Weather_Sunny_WM.wav</AudioFile>
+													<AudioFile>Robot_Vic_Sfx__Weather_Windy_Loop_WM.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{D5B863D2-8408-4138-B661-1C072F9BDD8D}" Platform="Linked"/>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_Loop_WM" ID="{BCF41D6A-809A-4D65-A2B6-B1F0A4D77B13}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{AF80082F-1888-4F81-8966-A6A0CD4EA484}" ShortID="501212284">
+										<Sound Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{977CE449-A1CE-4817-9D5C-809B840F364A}" ShortID="13817225">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
@@ -1372,26 +682,590 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{FD4F0E1D-510D-4642-9C79-4172655B566C}" ShortID="206049036">
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{95CED554-0D8B-4DC5-9EB6-CA6F99CCC25F}" ShortID="302390332">
 													<Language>SFX</Language>
-													<AudioFile>Robot_Vic_Sfx__Weather_Sunny_02_WM.wav</AudioFile>
+													<AudioFile>Robot_Vic_Sfx__Weather_Windy_WM.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{FD4F0E1D-510D-4642-9C79-4172655B566C}" Platform="Linked"/>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_WM" ID="{95CED554-0D8B-4DC5-9EB6-CA6F99CCC25F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{9647E49C-33C2-48AC-A22B-0E6E18BF4510}" ShortID="484567245">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{492FA855-3012-4FA6-B068-F270E9E0D282}" ShortID="118617945">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Windy_Eye_Flyoff_WM" ID="{492FA855-3012-4FA6-B068-F270E9E0D282}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{36C1425D-FF8E-4009-A7D0-DB611055E606}" ShortID="271368800">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{A5BCF732-1F3A-4941-856D-5D8F1A4EFCF5}" ShortID="634585210">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Emote_Weather_Windy_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Windy_WM" ID="{A5BCF732-1F3A-4941-856D-5D8F1A4EFCF5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-								</RandomSequenceContainer>
+								</Folder>
+								<Folder Name="Thunderstorm" ID="{01E80769-477C-40B4-9A38-EE6676F7934D}" ShortID="453329532">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{9A340357-EB05-4654-B260-21246ED3254D}" ShortID="930331413">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{1E0FD8EC-B743-4186-B191-743C035B9A4D}" ShortID="947948894">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_02_WM" ID="{1E0FD8EC-B743-4186-B191-743C035B9A4D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{4D2476B8-CAC8-443F-BE86-61EDD7E0A1F0}" ShortID="1026404950">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{0F50CD2F-4080-4F81-BDDB-8278B0E56911}" ShortID="1071646806">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Emote_Weather_Thunder_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Thunder_WM" ID="{0F50CD2F-4080-4F81-BDDB-8278B0E56911}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{BE4B65B7-1F69-4B5B-A704-FE40914A3FDB}" ShortID="365552946">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{8CB6AE00-1DAF-4F51-98D7-64FEB4B57E46}" ShortID="63782902">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Thunder_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{8CB6AE00-1DAF-4F51-98D7-64FEB4B57E46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{5118ECB2-7A66-4A15-BFCF-07CFFF9A9717}" ShortID="729658557">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{FC104B13-7985-4BD6-81CB-46E0E6D1109A}" ShortID="524260968">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_03_WM" ID="{FC104B13-7985-4BD6-81CB-46E0E6D1109A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{74B64D4F-F8F6-4CEE-A744-1D4DA6D8B408}" ShortID="429874404">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{43CB6920-2A09-41C3-9227-74E26959CE57}" ShortID="438726514">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Loop_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Loop_WM" ID="{43CB6920-2A09-41C3-9227-74E26959CE57}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{334117B1-A283-4E33-BE20-0D8A46AD937D}" ShortID="93546977">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{6169CC73-AA2B-40B8-9363-780F700BC592}" ShortID="215565645">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Thunder_Strike_01_WM" ID="{6169CC73-AA2B-40B8-9363-780F700BC592}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Sunny" ID="{E6CFDA75-676F-48E4-ABBB-3C61071417FE}" ShortID="579196584">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{76D8FA5E-5445-4B41-9436-4BD9231A46FE}" ShortID="763241294">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{723E1D59-1071-4FB0-A0BB-82B43F806C15}" ShortID="940104252">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Emote_Weather_Sunny_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{723E1D59-1071-4FB0-A0BB-82B43F806C15}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Robot_Vic_Sfx__Weather_Sunny" ID="{DBB71461-89E8-47F7-9BD4-D12FC7DC7A7D}" ShortID="818523006">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{1DA7A22A-9F27-490E-8678-E1BF03737C80}" ShortID="656526296">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{D5B863D2-8408-4138-B661-1C072F9BDD8D}" ShortID="747352869">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Vic_Sfx__Weather_Sunny_WM.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Vic_Sfx__Weather_Sunny_WM" ID="{D5B863D2-8408-4138-B661-1C072F9BDD8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{AF80082F-1888-4F81-8966-A6A0CD4EA484}" ShortID="501212284">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{FD4F0E1D-510D-4642-9C79-4172655B566C}" ShortID="206049036">
+															<Language>SFX</Language>
+															<AudioFile>Robot_Vic_Sfx__Weather_Sunny_02_WM.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Robot_Vic_Sfx__Weather_Sunny_02_WM" ID="{FD4F0E1D-510D-4642-9C79-4172655B566C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Stars" ID="{22B6334B-5EDA-4403-ABF3-F25D1664C6C1}" ShortID="796076165">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Stars_Loop_WM" ID="{4A78B6FF-02B1-4AD7-AC79-B1222F7EB45E}" ShortID="300772122">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Stars_Loop_WM" ID="{7E96F9FD-BCC4-4297-9D44-BA6ED47E20D7}" ShortID="392648935">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Stars_Loop_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Stars_Loop_WM" ID="{7E96F9FD-BCC4-4297-9D44-BA6ED47E20D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{CE56CED5-23F0-48CF-8CE2-1B1B54AEAEBC}" ShortID="230895029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{81F02FB9-8D56-43D8-A13A-6C0E82C22A2D}" ShortID="1055757071">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Stars_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{81F02FB9-8D56-43D8-A13A-6C0E82C22A2D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Snow" ID="{1965E450-BA8E-4C11-B7AF-C5CFB05F50EC}" ShortID="741123167">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{CFFDF24F-12DD-4577-99CA-64E0E31A1ED8}" ShortID="318809263">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{183C1436-705D-4548-AC21-F24A54EB3394}" ShortID="938951798">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Snow_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{183C1436-705D-4548-AC21-F24A54EB3394}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Snow_Loop_WM" ID="{3F9837DA-4366-4111-8E6F-44811020203C}" ShortID="203298642">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Snow_Loop_WM" ID="{E54C8037-BCA6-495D-8D5A-5DA78839C84A}" ShortID="46314431">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Snow_Loop_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Snow_Loop_WM" ID="{E54C8037-BCA6-495D-8D5A-5DA78839C84A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Rain" ID="{17E0BC39-DD73-4B62-BA36-FA7AAB769DA8}" ShortID="1046223634">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{049DD1B1-2FA8-4F93-B984-889BD0292ED7}" ShortID="701679674">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{DEE09D6D-B875-4463-B022-58CDD21B650B}" ShortID="484422039">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Rain_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{DEE09D6D-B875-4463-B022-58CDD21B650B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{9A3B8394-75B1-44EC-8B46-E155A58ECD69}" ShortID="342992515">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{047D0810-7369-46A4-B118-D9572AB8AA67}" ShortID="127325774">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Rain_Loop_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{047D0810-7369-46A4-B118-D9572AB8AA67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{EA67837A-D238-4217-885D-DB580C1FF86E}" ShortID="359611995">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{D79389D9-FA7F-4750-A85E-AA69F66CD853}" ShortID="694482698">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Emote_Weather_Rain_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{D79389D9-FA7F-4750-A85E-AA69F66CD853}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Cold" ID="{10CE5722-1DA4-4EFB-9C1E-5EED2E593A05}" ShortID="842505947">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{6B9E0309-5AE4-4903-AC7E-C6F2C9D7578F}" ShortID="428201665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{11A48192-BAFC-4605-8A3D-A99CB86583A5}" ShortID="23813374">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Cold_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{11A48192-BAFC-4605-8A3D-A99CB86583A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Cloudy" ID="{41E70D60-1A49-453C-A882-A6396D1B2952}" ShortID="604303257">
+									<ChildrenList>
+										<Sound Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{F1D906FB-68DB-45FB-A3EF-D1667D5B1E37}" ShortID="766594164">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{AE51387B-FECF-4DB1-9552-C23775FE87E4}" ShortID="352086344">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Cloudy_Loop_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{AE51387B-FECF-4DB1-9552-C23775FE87E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9AD259DC-D7C4-47E8-9458-CA742FB233A4}" ShortID="349016467">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9EBA56C3-63B0-47C7-A8E2-925D2BC46EB3}" ShortID="1037650962">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Emote_Weather_Cloudy_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9EBA56C3-63B0-47C7-A8E2-925D2BC46EB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{4C5EFE69-0B2D-4C34-BD29-CBAE64A75FB2}" ShortID="518186746">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{2B721F33-EEDC-4F6D-8479-468C480D57D9}" ShortID="212137642">
+													<Language>SFX</Language>
+													<AudioFile>Robot_Vic_Sfx__Weather_Cloudy_WM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{2B721F33-EEDC-4F6D-8479-468C480D57D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Stars" ID="{22B6334B-5EDA-4403-ABF3-F25D1664C6C1}" ShortID="796076165">
+						<Folder Name="Exploring" ID="{B01A01A7-8367-433E-A39C-F68853BA2A77}" ShortID="914303688">
 							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Weather_Stars_Loop_WM" ID="{4A78B6FF-02B1-4AD7-AC79-B1222F7EB45E}" ShortID="300772122">
+								<Sound Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{DD8593E4-760F-45C0-9CA5-88C8E42D1055}" ShortID="142153244">
 									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
+										<Property Name="Highpass" Type="int16">
 											<ValueList>
-												<Value>False</Value>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-900</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1404,339 +1278,399 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Stars_Loop_WM" ID="{7E96F9FD-BCC4-4297-9D44-BA6ED47E20D7}" ShortID="392648935">
+										<AudioFileSource Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{5C6F363E-F5D1-4BAE-B68E-93ACD3E5E616}" ShortID="713912773">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Stars_Loop_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Planning_Loop_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Stars_Loop_WM" ID="{7E96F9FD-BCC4-4297-9D44-BA6ED47E20D7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{CE56CED5-23F0-48CF-8CE2-1B1B54AEAEBC}" ShortID="230895029">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{81F02FB9-8D56-43D8-A13A-6C0E82C22A2D}" ShortID="1055757071">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Stars_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Stars_WM" ID="{81F02FB9-8D56-43D8-A13A-6C0E82C22A2D}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Planning_Loop_WM" ID="{5C6F363E-F5D1-4BAE-B68E-93ACD3E5E616}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Snow" ID="{1965E450-BA8E-4C11-B7AF-C5CFB05F50EC}" ShortID="741123167">
+						<Folder Name="Camera" ID="{A8C03620-04FB-446E-8EE0-CBBFB4B9A318}" ShortID="237178186">
 							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{CFFDF24F-12DD-4577-99CA-64E0E31A1ED8}" ShortID="318809263">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{183C1436-705D-4548-AC21-F24A54EB3394}" ShortID="938951798">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Snow_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Snow_WM" ID="{183C1436-705D-4548-AC21-F24A54EB3394}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Snow_Loop_WM" ID="{3F9837DA-4366-4111-8E6F-44811020203C}" ShortID="203298642">
+								<Sound Name="Robot_Vic_Sfx__Camera_Focus_WM_01" ID="{B76A8FA6-9D75-41B9-BE6C-7C5AA1BD5B46}" ShortID="358818375">
 									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
+										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>False</Value>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Snow_Loop_WM" ID="{E54C8037-BCA6-495D-8D5A-5DA78839C84A}" ShortID="46314431">
+										<AudioFileSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{DA558B8D-C653-432C-85B0-90D565393F74}" ShortID="661945821">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Snow_Loop_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Camera_Focus_WM.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="260498101"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Snow_Loop_WM" ID="{E54C8037-BCA6-495D-8D5A-5DA78839C84A}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{DA558B8D-C653-432C-85B0-90D565393F74}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Rain" ID="{17E0BC39-DD73-4B62-BA36-FA7AAB769DA8}" ShortID="1046223634">
-							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{049DD1B1-2FA8-4F93-B984-889BD0292ED7}" ShortID="701679674">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{DEE09D6D-B875-4463-B022-58CDD21B650B}" ShortID="484422039">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Rain_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Rain_WM" ID="{DEE09D6D-B875-4463-B022-58CDD21B650B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{9A3B8394-75B1-44EC-8B46-E155A58ECD69}" ShortID="342992515">
+								<Sound Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{C5828A9B-D04C-4D85-81A4-83F133E3E1A7}" ShortID="159674618">
 									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
+										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>False</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{047D0810-7369-46A4-B118-D9572AB8AA67}" ShortID="127325774">
+										<AudioFileSource Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{11FE9A1C-B60A-44D5-961D-080A9B6ECB44}" ShortID="698113681">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Rain_Loop_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Camera_Charge_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Rain_Loop_WM" ID="{047D0810-7369-46A4-B118-D9572AB8AA67}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Camera_Charge_WM" ID="{11FE9A1C-B60A-44D5-961D-080A9B6ECB44}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{EA67837A-D238-4217-885D-DB580C1FF86E}" ShortID="359611995">
+								<Sound Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{AE3BFC6D-E91E-40C5-A8F6-034FCFA4A4BA}" ShortID="474516412">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{D79389D9-FA7F-4750-A85E-AA69F66CD853}" ShortID="694482698">
+										<AudioFileSource Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{19A1C1FB-15E5-403A-80F5-CA81D54D9CF6}" ShortID="133119974">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Rain_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Camera_Flash_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Rain_WM" ID="{D79389D9-FA7F-4750-A85E-AA69F66CD853}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Camera_Flash_WM" ID="{19A1C1FB-15E5-403A-80F5-CA81D54D9CF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{09AC8D7F-5C4E-4A57-A1C5-463248407AE2}" ShortID="979041650">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{8B3B85DF-CD11-4767-BEDD-C148DE77A646}" ShortID="1016379772">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Camera_Focus_WM.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="260498101"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{8B3B85DF-CD11-4767-BEDD-C148DE77A646}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" ShortID="800310198">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{E369490F-448A-455E-A4EF-73D7FEB28E57}" ShortID="260498101">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Camera_Focus_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{E369490F-448A-455E-A4EF-73D7FEB28E57}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Cold" ID="{10CE5722-1DA4-4EFB-9C1E-5EED2E593A05}" ShortID="842505947">
+						<Folder Name="Power" ID="{52275520-6CE3-46D9-985E-4A1086F9EF52}" ShortID="770542378">
 							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{6B9E0309-5AE4-4903-AC7E-C6F2C9D7578F}" ShortID="428201665">
+								<Sound Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{074E9A8B-41CE-4A9E-96C2-7EB162C43D8F}" ShortID="598068743">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{11A48192-BAFC-4605-8A3D-A99CB86583A5}" ShortID="23813374">
+										<AudioFileSource Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{5DFF9CF7-4C64-4321-AAAD-A568F74E83AC}" ShortID="277236138">
 											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Cold_WM.wav</AudioFile>
+											<AudioFile>Robot_Vic_Sfx__Power_On_Short_WM.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{11A48192-BAFC-4605-8A3D-A99CB86583A5}" Platform="Linked"/>
+										<ActiveSource Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{5DFF9CF7-4C64-4321-AAAD-A568F74E83AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{4D8C9B07-311D-449E-8F48-91296BC0AFF6}" ShortID="12493573">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-150</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{E17598DF-42B7-4B04-8128-0DE111FFCF9A}" ShortID="470240706">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix_WM" ID="{E17598DF-42B7-4B04-8128-0DE111FFCF9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{4015200C-48D1-4902-BAD6-11A8916B9805}" ShortID="7973737">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{AD9AD0DD-9B9D-4F58-99C4-E2A4BF544529}" ShortID="84337024">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Power_Off_End_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{AD9AD0DD-9B9D-4F58-99C4-E2A4BF544529}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{56C728BC-1849-4687-A626-5D20E8BF60F4}" ShortID="835643042">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{3B57F5AA-0A01-423F-A16D-E6CC28951FE0}" ShortID="370748333">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Power_On_Crooked_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Power_On_Crooked_WM" ID="{3B57F5AA-0A01-423F-A16D-E6CC28951FE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{3C86E926-CEF4-41C6-8E18-E1D25A185C1D}" ShortID="307565652">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{F40D76D9-8D59-4FFF-8254-FDA98005BDDB}" ShortID="264894955">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Power_On_Mismatched_Eyes_WM" ID="{F40D76D9-8D59-4FFF-8254-FDA98005BDDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Power_Off_WM" ID="{EC15857F-4BB5-4F92-A7E1-7E291A1BB2E8}" ShortID="427584483">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Power_Off_WM" ID="{9AD45F5F-EFF6-4BEE-9CEB-6763FA862B98}" ShortID="1039352055">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Power_Off_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Power_Off_WM" ID="{9AD45F5F-EFF6-4BEE-9CEB-6763FA862B98}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{6FF94B1A-E6B8-4548-9398-5A95749FA431}" ShortID="268886496">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{384FE381-51E9-4C07-B821-C8E6C38B5BAA}" ShortID="452607584">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Scrn_Power_On_Crooked_Eye_Droop_WM" ID="{384FE381-51E9-4C07-B821-C8E6C38B5BAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Power_On_WM" ID="{1FF3380E-5951-4703-B091-9195F5011CEE}" ShortID="290275257">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>45</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-320</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect Low" ID="{1FEA84A1-764D-42EF-9C6A-5EA06BFD8AD4}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Power_On_WM" ID="{7F87C30E-1CFD-46F7-87F8-AB0A69C5FDB2}" ShortID="521533998">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Power_On_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Power_On_WM" ID="{7F87C30E-1CFD-46F7-87F8-AB0A69C5FDB2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Cloudy" ID="{41E70D60-1A49-453C-A882-A6396D1B2952}" ShortID="604303257">
-							<ChildrenList>
-								<Sound Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{F1D906FB-68DB-45FB-A3EF-D1667D5B1E37}" ShortID="766594164">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{AE51387B-FECF-4DB1-9552-C23775FE87E4}" ShortID="352086344">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Cloudy_Loop_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Cloudy_Loop_WM" ID="{AE51387B-FECF-4DB1-9552-C23775FE87E4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9AD259DC-D7C4-47E8-9458-CA742FB233A4}" ShortID="349016467">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9EBA56C3-63B0-47C7-A8E2-925D2BC46EB3}" ShortID="1037650962">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Emote_Weather_Cloudy_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Emote_Weather_Cloudy_WM" ID="{9EBA56C3-63B0-47C7-A8E2-925D2BC46EB3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{4C5EFE69-0B2D-4C34-BD29-CBAE64A75FB2}" ShortID="518186746">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{2B721F33-EEDC-4F6D-8479-468C480D57D9}" ShortID="212137642">
-											<Language>SFX</Language>
-											<AudioFile>Robot_Vic_Sfx__Weather_Cloudy_WM.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Robot_Vic_Sfx__Weather_Cloudy_WM" ID="{2B721F33-EEDC-4F6D-8479-468C480D57D9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</Folder>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="DSP" ID="{D2CF5E9F-6F63-4065-B593-661AFAEFAEA7}" ShortID="375097394">
-					<ChildrenList>
-						<Sound Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{18378A32-75A4-445B-9EC2-8F5606128FE2}" ShortID="130370347">
-							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>30</Value>
-									</ValueList>
-								</Property>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="IsZeroLantency" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>200</Value>
-									</ValueList>
-								</Property>
-								<Property Name="PreFetchLength" Type="int16">
-									<ValueList>
-										<Value>150</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{FAE8B657-B81D-49F0-AB3A-009BDEEA21EB}" ShortID="657984513">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Dsp_Loop_Off_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{FAE8B657-B81D-49F0-AB3A-009BDEEA21EB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{E978842C-396E-445F-AEA7-FD323771E7B5}" ShortID="935078551">
-							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>30</Value>
-									</ValueList>
-								</Property>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="IsZeroLantency" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{577D93F6-CB3A-436E-923B-3ABD73C93335}" ShortID="352942852">
-									<Language>SFX</Language>
-									<AudioFile>Robot_Vic_Sfx__Dsp_Loop_WM.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{577D93F6-CB3A-436E-923B-3ABD73C93335}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
