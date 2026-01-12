@@ -1671,6 +1671,149 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Holiday" ID="{35598634-2836-4DAB-8756-B371907C400E}" ShortID="432287371">
+							<ChildrenList>
+								<Sound Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Appear_WM" ID="{AAB96FD8-F8F4-4B74-94EF-4E72345CFA27}" ShortID="1016070239">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsZeroLantency" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Appear_WM" ID="{55918F6D-B8D3-4EDE-B76F-702FD823B18B}" ShortID="593865897">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Appear_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Appear_WM" ID="{55918F6D-B8D3-4EDE-B76F-702FD823B18B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Holiday_Confetti_Build_WM" ID="{9ADFF411-6407-4A23-AC68-CAAC3F0A41DA}" ShortID="1066132654">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsZeroLantency" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Holiday_Confetti_Build_WM" ID="{F8AA779E-3A2E-41CE-9DE3-A54A50FB521B}" ShortID="846403890">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Holiday_Confetti_Build_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Holiday_Confetti_Build_WM" ID="{F8AA779E-3A2E-41CE-9DE3-A54A50FB521B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Disappear_WM" ID="{1F881278-9FCD-436C-84D6-9AC1CA16D067}" ShortID="1065994691">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsZeroLantency" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Disappear_WM" ID="{C05FF06E-FE5C-45A3-9828-EA8385F9BCFB}" ShortID="549269735">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Disappear_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Disappear_WM" ID="{C05FF06E-FE5C-45A3-9828-EA8385F9BCFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Holiday_Confetti_Explode_WM" ID="{589D14A0-BBAA-494C-9396-2E48A3DB42CD}" ShortID="861204325">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsZeroLantency" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Holiday_Confetti_Explode_WM" ID="{44C12DC8-BB3C-4B24-BFD5-C4CDE5628128}" ShortID="83752833">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Holiday_Confetti_Explode_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Holiday_Confetti_Explode_WM" ID="{44C12DC8-BB3C-4B24-BFD5-C4CDE5628128}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -955,6 +955,66 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Holiday" ID="{1BC25E7F-076E-4372-AB3A-99817FD46945}" ShortID="611842283">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Holiday_Confetti_Build" ID="{B29B73FD-91F1-44B0-84B5-242D92ED1C90}">
+									<ChildrenList>
+										<Action Name="" ID="{92297F7D-D933-459B-9C2E-E0F4A8CCEF71}" ShortID="392903074">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Holiday_Confetti_Build_WM" ID="{9ADFF411-6407-4A23-AC68-CAAC3F0A41DA}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Holiday_Confetti_Explode" ID="{FA08ADC5-2EEF-4528-A77C-184DBC899DBF}">
+									<ChildrenList>
+										<Action Name="" ID="{4E638406-E6C5-4947-B440-8232C4E19F88}" ShortID="476683500">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Holiday_Confetti_Explode_WM" ID="{589D14A0-BBAA-494C-9396-2E48A3DB42CD}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Appear" ID="{1243F3CB-B91B-4BAB-8DA1-A950C9B92E9F}">
+									<ChildrenList>
+										<Action Name="" ID="{7BB92F7C-9594-4ADA-9632-0BF51C8489B3}" ShortID="119982084">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Appear_WM" ID="{AAB96FD8-F8F4-4B74-94EF-4E72345CFA27}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Disappear" ID="{F68AC4FD-51F2-4EEA-AA92-4D0A1B95331A}">
+									<ChildrenList>
+										<Action Name="" ID="{0FB3F167-53EE-4F8F-9185-D07C8B0328B5}" ShortID="163526748">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Disappear_WM" ID="{1F881278-9FCD-436C-84D6-9AC1CA16D067}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
