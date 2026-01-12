@@ -1812,6 +1812,84 @@
 										<ActiveSource Name="Robot_Vic_Sfx__Holiday_Confetti_Explode_WM" ID="{44C12DC8-BB3C-4B24-BFD5-C4CDE5628128}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Holiday_Fireworks_Shoot_WM" ID="{21416846-E5AB-472B-B7ED-F62681311E86}" ShortID="949313052">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Holiday_Fireworks_Shoot_WM" ID="{AFDFCA42-B0C5-4C2C-86C3-BF9C7289D585}" ShortID="1024165500">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Holiday_Fireworks_Shoot_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Holiday_Fireworks_Shoot_WM" ID="{AFDFCA42-B0C5-4C2C-86C3-BF9C7289D585}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Holiday_Fireworks_Explode_WM" ID="{2B84131F-514A-4B50-B6BA-93E64AC160D4}" ShortID="975337729">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Holiday_Fireworks_Explode_WM" ID="{6483F305-8EA5-4572-A1B6-419E08EB3329}" ShortID="490622632">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Holiday_Fireworks_Explode_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Holiday_Fireworks_Explode_WM" ID="{6483F305-8EA5-4572-A1B6-419E08EB3329}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Robot_Vic_Sfx__Holiday_Fireworks_Start_WM" ID="{83B12501-D75D-4AF8-9388-3619A59E9804}" ShortID="134927771">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21275126-1C43-424F-B3A6-04D3B9411C5E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA5067F6-87DC-404E-9240-700E78C79ADE}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Vic_Sfx__Holiday_Fireworks_Start_WM" ID="{92F7F52C-C9E4-4DF2-AF29-EBC0BC5E31BB}" ShortID="932530238">
+											<Language>SFX</Language>
+											<AudioFile>Robot_Vic_Sfx__Holiday_Fireworks_Start_WM.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Vic_Sfx__Holiday_Fireworks_Start_WM" ID="{92F7F52C-C9E4-4DF2-AF29-EBC0BC5E31BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

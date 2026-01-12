@@ -45,6 +45,8 @@
 						<ObjectRef Name="Robot_SFX__Bored_Slot" ID="{180DD168-09AE-42C9-B1DC-82F054F4AF38}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_WM" ID="{09B050B8-9AB3-42D8-A957-9336EAE7CB15}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_WM" ID="{F6EA3783-3CB5-4345-9C8A-F95C980085C8}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Disappear_WM" ID="{1F881278-9FCD-436C-84D6-9AC1CA16D067}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Holiday" ID="{1BC25E7F-076E-4372-AB3A-99817FD46945}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Cold" ID="{FA283057-7D4C-4383-9EE9-8DAFF9FCE98D}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On_Short" ID="{70F711D1-1182-4393-BB5F-A2550822C8EE}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_End" ID="{19D7DC4B-770E-43EE-BBF3-AC4C94CA16F9}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
@@ -62,6 +64,7 @@
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_WM" ID="{1FF3380E-5951-4703-B091-9195F5011CEE}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_All_Loop_Stop" ID="{6212A2F1-4C2D-470D-9FB8-3A1653D45260}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Scene__Anim_Abort" ID="{14048ADD-C6A6-4718-A286-8C22325BBDF8}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Holiday_Fireworks_Shoot_WM" ID="{21416846-E5AB-472B-B7ED-F62681311E86}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_WM" ID="{9057FF92-E89B-476A-B58C-936574938209}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Thunderstorm" ID="{22859A0B-AEF3-47AA-AB2B-B9CD4CAFFEDE}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Slow_Stop" ID="{A6BAF4ED-0DCE-47E1-ABA5-B2F0A65A8947}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
@@ -75,21 +78,26 @@
 						<ObjectRef Name="Cloudy" ID="{A5ABFE64-F15C-48D9-9F32-80F266946772}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_Off_End_WM" ID="{4015200C-48D1-4902-BAD6-11A8916B9805}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Weather_Cold_WM" ID="{6B9E0309-5AE4-4903-AC7E-C6F2C9D7578F}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Holiday_Confetti_Explode_WM" ID="{589D14A0-BBAA-494C-9396-2E48A3DB42CD}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Windy" ID="{4C674690-270F-495C-A4C9-973D1F8173AE}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Slow_Stop" ID="{143E02E1-B62E-49BA-928E-C378F9BA37B8}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Planning_Loop_Play" ID="{32329812-D28B-49D2-9FAC-5633472E0DAF}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Holiday_Confetti_Build_WM" ID="{9ADFF411-6407-4A23-AC68-CAAC3F0A41DA}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM" ID="{09AC8D7F-5C4E-4A57-A1C5-463248407AE2}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Focus_3" ID="{30A932BC-EF28-4A61-A850-621A494ECB8D}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_SFX__Explorer_Night_Vision_On" ID="{ED65233F-12A2-4A7A-88D7-26295AACD270}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Scrn_Power_On_Eye_Fix" ID="{D6B3ED5D-F79B-4A97-A393-1465B20C3FB1}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Power_On_Short_WM" ID="{074E9A8B-41CE-4A9E-96C2-7EB162C43D8F}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Loop_Fast_Play" ID="{081B4394-D5ED-4AF5-89F0-B6188FA1BC70}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Holiday_Fireworks_Start_WM" ID="{83B12501-D75D-4AF8-9388-3619A59E9804}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Power_On" ID="{CBF6FCC7-7C79-4AFD-B67A-12FBDA72844A}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Chime_Shakeoff_Start" ID="{F97E3AD8-2D83-4B26-94C3-77ED204C0517}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Emote_Weather_Sunny_WM" ID="{76D8FA5E-5445-4B41-9436-4BD9231A46FE}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Camera_Focus_WM_02" ID="{2CFBF753-0C95-4B4C-B559-BC078B56E20A}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Holiday_Fireworks_Explode_WM" ID="{2B84131F-514A-4B50-B6BA-93E64AC160D4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stars" ID="{FA223D60-9CEF-4B57-8F90-BAE506F35146}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Vic_Sfx__Weather_Thunder_WM" ID="{BE4B65B7-1F69-4B5B-A704-FE40914A3FDB}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Robot_Vic_Sfx__Scrn_Holiday_Confetti_Eyes_Appear_WM" ID="{AAB96FD8-F8F4-4B74-94EF-4E72345CFA27}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Low_Light_Charging_End" ID="{E6D3C1A6-9837-4B9C-9B94-EEF2C8C4EC79}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Snowglobe_Wind_Loop_Fast_Play" ID="{1BF2CBDD-921B-4BAC-A1B0-C09CC0E4396F}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play__Robot_Vic_Sfx__Camera_Charge_Play" ID="{805EC3E6-0610-4BB1-831C-0EECEACE23D7}" WorkUnitID="{E5191D27-ED94-47F3-8C4C-B08D723E1EA9}" Filter="7" Origin="Manual"/>

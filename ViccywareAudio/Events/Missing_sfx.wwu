@@ -1013,6 +1013,48 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Holiday_Fireworks_Explode" ID="{1F49E608-A519-4526-8504-4EDBD3058FC8}">
+									<ChildrenList>
+										<Action Name="" ID="{11884626-C587-4125-B681-0BA3F99AED6A}" ShortID="279070219">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Holiday_Fireworks_Explode_WM" ID="{2B84131F-514A-4B50-B6BA-93E64AC160D4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Holiday_Fireworks_Shoot" ID="{DB29E014-2E17-49F0-81BC-14E54FDB9C85}">
+									<ChildrenList>
+										<Action Name="" ID="{783662C6-B061-4BF8-98BA-C1FA1E0D9B70}" ShortID="612859617">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Holiday_Fireworks_Shoot_WM" ID="{21416846-E5AB-472B-B7ED-F62681311E86}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play__Robot_Vic_Sfx__Holiday_Fireworks_Start" ID="{F4D712C0-8A9B-4E6F-81FC-0C8DFEF2F03F}">
+									<ChildrenList>
+										<Action Name="" ID="{951F7609-C7AD-40D6-AE51-43E0F877E747}" ShortID="560083847">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Holiday_Fireworks_Start_WM" ID="{83B12501-D75D-4AF8-9388-3619A59E9804}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
