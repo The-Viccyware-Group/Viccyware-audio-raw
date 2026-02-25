@@ -4,13 +4,13 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Cozmo_singing" Hash="3615627627" Timestamp="1758398551"/>
-				<File Name="Init" Hash="2666056332" Timestamp="1768238431"/>
-				<File Name="Missing_sfx" Hash="2369911010" Timestamp="1768238431"/>
+				<File Name="Init" Hash="2666056332" Timestamp="1771988709"/>
+				<File Name="Missing_sfx" Hash="2369911010" Timestamp="1771988709"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="884945225" Timestamp="1768238431"/>
+				<File Name="" Hash="884945225" Timestamp="1771988709"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

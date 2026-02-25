@@ -1057,6 +1057,48 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="DSP" ID="{EBF26728-3E73-4A54-BADF-E73095AB237C}" ShortID="860671290">
+							<ChildrenList>
+								<Event Name="Play__Robot_Vic_Sfx__Dsp_Loop_Play" ID="{99FD08D9-C20E-4E19-A4A8-B7971EEC1722}">
+									<ChildrenList>
+										<Action Name="" ID="{801384F6-702F-484E-8C26-6F9DD14030E1}" ShortID="636186408">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{8C525F5B-6765-4323-8842-322E47340070}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop__Robot_Vic_Sfx__Dsp_Loop_Stop" ID="{8FAB7F41-2FAC-4944-9A8D-47592BDBAD99}">
+									<ChildrenList>
+										<Action Name="" ID="{964E5655-3D88-4902-98FD-6953A5264853}" ShortID="625358326">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Dsp_Loop_WM" ID="{8C525F5B-6765-4323-8842-322E47340070}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{688E9670-235F-40BD-9E59-B639E18F0A79}" ShortID="233981441">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Robot_Vic_Sfx__Dsp_Loop_Off_WM" ID="{0B140BF2-1590-4D27-99B2-EA0D3C7CACD4}" WorkUnitID="{DF67DCE5-3DA8-4CAA-A17F-6CAE447C47C5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
